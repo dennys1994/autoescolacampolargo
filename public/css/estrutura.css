@@ -1,0 +1,89 @@
+
+
+/* Garantir que as colunas tenham a mesma altura */
+#estrutura .row.d-flex.align-items-stretch {
+    display: flex;
+    align-items: stretch; /* Certifica-se de que as colunas tenham a mesma altura */
+}
+
+/* Estilo da lista */
+#estrutura ul {
+    background: #FFFFFF;
+    color: #1A2352;
+    border-radius: 27.85px 0 0 27.85px;
+    margin: 0;
+    padding: 20px;
+    font-family: Grold;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.06px;
+    text-align: left;
+    height: 100%;  /* Garantir que ocupe toda a altura da coluna */
+    width: 100%;
+    list-style-type: disc;
+    padding-top: 12.5%;
+    padding-left: 40px;
+    right:500px!important;
+}
+
+/* Garantir que o conteúdo dentro da coluna da esquerda fique centralizado */
+#estrutura .col-md-7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza a lista verticalmente */
+    align-items: center; /* Alinha a lista horizontalmente */
+}
+
+/* Garantir que o carousel ocupe toda a altura disponível */
+#carouselestrutura {
+    height: 100%;
+}
+
+#carouselestrutura .carousel-inner {
+    height: 100%;
+}
+
+#carouselestrutura .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+#estrutura .col-12{
+    padding: 0;
+}
+
+#estrutura button{
+    background-color: #1A2352!important;
+    color: #FFFFFF;
+    border-radius: 17.79px;
+    font-family: Grold;
+    font-size: 22.33px;
+    font-weight: 400;
+    line-height: 18.14px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 24px auto;
+    width: 25%;
+}
+
+@media (min-width: 575.98px){
+    #estrutura .fundo-elemento{
+        background: #FFFFFF;
+        border-radius: 27.85px;
+    }
+}
+
+@media (max-width: 575.98px){
+    #estrutura{
+        margin: 0 25px 0 25px;
+    }
+    #estrutura ul {
+        margin-bottom: 5px;
+        border-radius: 27.85px;
+    }
+    #estrutura button{
+        width: 75%;
+    }
+}

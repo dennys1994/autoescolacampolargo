@@ -43,7 +43,7 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="escolaDropdown">
                                 <li><a class="dropdown-item text-white" href="{{ route('a_escola') }}">Conheça a Escola</a></li>
-                                <li><a class="dropdown-item text-white" href="{{ route('a_escola') }}#estrutura">Nossa Estrutura</a></li>
+                                <li><a class="dropdown-item text-white" href="{{ route('estrutura') }}">Nossa Estrutura</a></li>
                             </ul>
                         </li>
         

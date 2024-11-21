@@ -7,8 +7,8 @@
 
 @font-face {
     font-family: 'Grold';
-    font-weight: 400;
-    src: url('../fonts/grold-regular.ttf') format('opentype');
+    font-weight: 200;
+    src: url('../fonts/Grold-SemiLight.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -161,7 +161,7 @@ main {
         opacity: 0px;
     }
 
-    .container-fluid {
+    .navbar .container-fluid {
         background-color: var(--primary-color) !important;
     }
 
@@ -516,6 +516,12 @@ main {
   #map-container iframe {
     border-radius: 10px;
   }
-  
 
 /*End Footer*/
+
+
+/*universal*/
+
+.d-flex{
+    display: flex;
+}

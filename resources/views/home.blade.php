@@ -10,9 +10,10 @@
                     <!-- Imagem para desktop (oculta no mobile) -->
                     <img class="d-block w-100 img-fluid d-none d-md-block" src="{{asset('img/banner-home.png')}}" alt="First slide">                    
                     <!-- Imagem para mobile (oculta no desktop) e agora é um link -->
-                    <a href="sua-url-aqui">
+                    <a href="{{ route('pre_matricula') }}">
                         <img class="d-block w-100 img-fluid d-md-none" src="{{asset('img/banner-home-mb.png')}}" alt="First slide mobile">
-                    </a><button class="btn btn-banner position-absolute bottom-0 end-0 m-3 d-none d-md-block">FAÇA JÁ SUA <strong>MATRÍCULA</strong></button>
+                        <button class="btn btn-banner position-absolute bottom-0 end-0 m-3 d-none d-md-block">FAÇA JÁ SUA <strong>MATRÍCULA</strong></button>
+                    </a>
                 </div>   
             </div>
         </div>
@@ -161,7 +162,7 @@
               <div class="card text-center rounded-0" style="background-color: #1A2352; color: white; padding-top: 10%;">
                 <div class="card-body">
                   <h5 class="card-title">1º HABILITAÇÃO</h5>
-                  <button class="btn btn-light rounded-pill">Saiba Mais</button>
+                  <a href="{{ route('primeira_habilitacao') }}"><button class="btn btn-light rounded-pill">Saiba Mais</button></a>
                 </div>
               </div>
             </div>
@@ -171,7 +172,7 @@
               <div class="card text-center rounded-0" style="background-color: #A40206; color: white; padding-top: 10%;">
                 <div class="card-body">
                   <h5 class="card-title">RECICLAGEM</h5>
-                  <button class="btn btn-light rounded-pill">Saiba Mais</button>
+                  <a href="{{ route('reciclagem') }}"><button class="btn btn-light rounded-pill">Saiba Mais</button></a>
                 </div>
               </div>
             </div>
@@ -181,7 +182,7 @@
               <div class="card text-center rounded-0" style="background-color: #1A2352; color: white;">
                 <div class="card-body">
                   <h5 class="card-title">ALTERAÇÃO OU INCLUSÃO DE CATEGORIA</h5>
-                  <button class="btn btn-light rounded-pill">Saiba Mais</button>
+                  <a href="{{ route('inclusao_categoria') }}"><button class="btn btn-light rounded-pill">Saiba Mais</button></a>
                 </div>
               </div>
             </div>
@@ -191,7 +192,7 @@
               <div class="card text-center rounded-0" style="background-color: #A40206; color: white;">
                 <div class="card-body">
                   <h5 class="card-title">AVALIAÇÃO E TREINAMENTO DE MOTORISTAS</h5>
-                  <button class="btn btn-light rounded-pill">Saiba Mais</button>
+                  <a href="{{ route('avaliacao') }}"><button class="btn btn-light rounded-pill">Saiba Mais</button></a>
                 </div>
               </div>
             </div>

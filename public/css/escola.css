@@ -1,0 +1,75 @@
+#a-escola p{
+    background: #FFFFFF;
+    color: #1A2352;    
+    height: 530px;
+    border-radius: 27.85px;
+    display: flex; /* Ativa o Flexbox */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    text-align: justify; /* (Opcional) Justifica o texto */
+    padding: 20px; /* Adiciona espaço interno ao redor do texto */
+    margin: 0; /* Remove margens do parágrafo */  
+    font-family: Grold;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.06px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+#a-escola .row.d-flex.align-items-stretch > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#a-escola .row.d-flex.align-items-stretch p {
+    margin: 0; /* Remove margens padrão do <p> */
+    flex: 1;   /* Expande para ocupar o espaço disponível */
+}
+
+
+#a-escola .fundo-elemento{
+    background: #FFFFFF;
+    border-radius: 27.85px;
+}
+
+#a-escola .col-12{
+    padding: 0;
+}
+
+#a-escola button{
+    background-color: #1A2352!important;
+    color: #FFFFFF;
+    border-radius: 17.79px;
+    font-family: Grold;
+    font-size: 22.33px;
+    font-weight: 400;
+    line-height: 18.14px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 24px auto;
+    width: 25%;
+}
+
+@media (min-width: 575.98px){
+    #a-escola .fundo-elemento{
+        background: #FFFFFF;
+        border-radius: 27.85px;
+    }
+}
+
+@media (max-width: 575.98px){
+    #a-escola{
+        margin: 0 25px 0 25px;
+    }
+    #a-escola ul {
+        margin-bottom: 5px;
+        border-radius: 27.85px;
+    }
+    #a-escola button{
+        width: 75%;
+    }
+}
