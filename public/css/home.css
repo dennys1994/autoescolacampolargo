@@ -1,0 +1,371 @@
+body, html {
+    overflow-x: hidden;
+  }
+
+.btn-banner {
+    font-size: 30px;
+    border-radius: 20.02px;
+    background: #F1F5FF;
+    color: #1A1A4F;
+    padding: 0 12px;
+}
+
+.btn-banner:hover {
+    background: #1A1A4F;
+    color: #F1F5FF;
+}
+
+#nossas-vantagens .card {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+    color: #1A2352;
+    border-radius: 27.85px;
+}
+
+#nossas-vantagens .card-title {
+  font-family: Grold;
+  font-size: 35.16px;
+  font-weight: 400;
+  line-height: 30.47px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+#nossas-vantagens .card-text {
+    font-family: Grold;
+    font-size: 25.99px;
+    font-weight: 400;
+    line-height: 25.06px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+#nossas-vantagens .mais-info {
+    font-size: 1rem;
+    padding-left: 0;
+    text-align: left;
+}
+
+#nossas-vantagens .mais-info i {
+    margin-right: 8px;
+}
+
+#nossas-vantagens .card {
+    min-height: 250px; /* Ajuste o valor conforme necessário */
+  }
+
+#nossas-vantagens h2 {
+    margin-top: -50px; /* Ajuste para que o título fique mais perto do banner */
+    background-color: #890004; /* Personalize a cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 75px 30px 0px; /* Ajuste o padding conforme necessário */
+    border-radius: 25px; /* Bordas arredondadas */
+    font-family: Grold;
+    font-size: 47.59px;
+    font-weight: 400;
+    line-height: 41.25px;
+    text-align: center;
+    text-underline-position: from-font;
+}
+
+section#nossas-vantagens hr.my-3.d-none.d-md-block {
+    border-top: 1.39px solid #1A2352!important; /* Define a espessura da linha */
+    opacity: 1;
+  }
+  
+  #faca-matricula .container{
+    margin: 0;
+    padding: 0%;
+    max-width: 100%;
+  }
+
+  #faca-matricula h2 {
+    background-color: #1A2352; /* Cor do fundo */
+    color: white; /* Cor do texto */
+    padding: 15px 0;
+    margin-bottom: 0;
+  }
+
+  #faca-matricula .card-col{
+    padding: 0%!important;
+  }
+  
+  #faca-matricula .card-body .card-title {
+    font-family: Grold;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  
+  #faca-matricula .card-body .btn {
+    padding: 8px 20px;
+    border-radius: 25.5px 0px 0px 0px;
+    font-family: Grold;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  #faca-matricula .card{
+    min-height: 200px; 
+    border-top: 0px;
+    border-top-left-radius: 0; /* Retira o arredondamento da parte superior esquerda */
+    border-top-right-radius: 0; /* Retira o arredondamento da parte superior direita */
+    border-bottom-left-radius: 15px!important; /* Arredonda o canto inferior esquerdo */
+    border-bottom-right-radius: 15px!important; /* Arredonda o canto inferior direito */
+  }
+  
+ 
+
+  #avaliacao-google {
+    background-color: #f8f9fa;
+  }
+  
+  #avaliacao-google .container{
+    max-width: 100%;
+  }
+#avaliacao-google h2{
+    color: #1A2352;
+    font-family: Grold;
+    font-size: 54.2px;
+    font-weight: 400;
+    line-height: 46.97px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+  #avaliacao-google .card {
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+    height: 400px;
+  }
+  
+  #avaliacao-google .stars i {
+    color: #ffcc00;
+  }
+  
+  #avaliacao-google .d-flex img {
+    border-radius: 50%;
+  }
+  
+  #avaliacao-google .card-title{
+    font-family: Grold;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 29.98px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+  #avaliacao-google .card-text {
+    color: #1A2352;
+    font-family: Grold;
+    font-size: 25.99px;
+    font-weight: 400;
+    line-height: 29.98px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  
+  #avaliacao-google .card-body .stars {
+    margin-bottom: 10px;
+  }
+  
+  #orcamento .card {
+    border-radius: 27.85px!important;
+  }
+  
+  #orcamento .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  @media (min-width: 978px){
+    #orcamento .orcamento-title{
+      padding: 40px 0 31px;
+
+    }
+  }
+  
+  #orcamento form .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+  }
+
+  #orcamento input{
+    border-radius: 25px;
+    font-family: Grold;
+    font-size: 26.08px;
+    font-weight: 400;
+    line-height: 22.61px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+  
+  #orcamento .btn-outline-primary {
+    border-color: #1A2352;
+    color: #1A2352;
+    border-radius: 25.5px!important;
+    font-family: Grold!important;
+    font-size: 29.72px!important;
+    font-weight: 400!important;
+    line-height: 25.76px!important;
+    letter-spacing: -0.03em!important;
+    text-align: center!important;
+    text-underline-position: from-font!important;
+    text-decoration-skip-ink: none!important;
+
+  }
+  
+  #orcamento .btn-solicitar {
+    background-color: #A40206;
+    border-color: #A40206;
+    width: 154px;
+    border-radius: 25.5px!important;
+    color: #FFFFFF;
+    font-size: 32px!important;
+    font-weight: 400!important;
+    line-height: 26px!important;
+    letter-spacing: -0.04em!important;
+
+  }
+  
+  #orcamento .btn-solicitar:hover {
+    background-color: #820106;
+    border-color: #820106;
+  }
+  
+  #orcamento .orcamento-title {
+    padding-top: auto;
+    font-family: Grold;
+    font-size: 48.76px;
+    font-weight: 400;
+    line-height: 42.26px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1A2352;
+
+  }
+
+  @media (max-width: 575.98px) { /* Mobile */
+    #nossas-vantagens .card {
+        margin-bottom: 1rem; /* Reduz o espaço entre os cards */
+        min-height: 42px; /* Ajuste o valor conforme necessário */
+
+    }
+  
+    #nossas-vantagens .card-body {
+      padding: 0.5rem 1rem; /* Reduz o padding interno */
+    }
+  
+    #nossas-vantagens .card-title {
+        font-family: Grold;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        
+    }
+  
+    #nossas-vantagens .card-text {
+      font-size: 14px; /* Reduz o tamanho do texto */
+      line-height: 1.5; /* Ajusta o espaçamento entre linhas */
+    }
+  
+    #nossas-vantagens .mais-info {
+      padding: 0; /* Remove padding desnecessário no botão */
+      margin-left: 0.5rem; /* Espaçamento mínimo entre o botão e o título */
+    }
+
+    #nossas-vantagens h2{
+      width: 207px;
+      height: 87.93px;
+      padding: 70px 0 0 0;
+      margin-top: -50px;
+      border-radius: 0px 0px 12px 12px;
+      font-family: Grold;
+      font-size: 19.2px;
+      font-weight: 400;
+      line-height: 16.64px;
+      text-align: center;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+
+    #faca-matricula-mobile .row {
+        margin: 0px 25px !important;
+      }
+
+    #faca-matricula-mobile h2 {
+        font-size: 20px;
+        padding: 10px 0;
+      }
+    
+    #faca-matricula-mobile .col-6{
+        padding: 4px;
+    }
+      /* Ajuste nos cards para não deixar muito espaço em branco */
+    #faca-matricula-mobile  .card {
+        border-radius: 9.31px!important;
+        width: 100%;
+        height: 100px;
+      }
+    
+    #faca-matricula-mobile  .card-title {
+        font-size: 16px;  /* Ajuste do tamanho da fonte do título do card */
+      }
+
+      #faca-matricula-mobile  .btn-matricula {
+        width: 77.1px;
+        height: 19.05px;
+        border-radius: 11.3px;
+        font-family: Grold;
+        font-size: 14.18px;
+        font-weight: 400;
+        line-height: 11.52px;
+        letter-spacing: -0.04em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+      }
+
+      #faca-matricula-mobile .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  /* Centraliza os itens verticalmente */
+        align-items: center;      /* Centraliza os itens horizontalmente */
+        height: 100%;             /* Faz com que o card use o máximo de altura */
+      }
+      
+      #faca-matricula-mobile .card-title {
+        text-align: center;       /* Garante que o título esteja centralizado */
+        margin: 0px!important;
+      }
+      
+  }
+  

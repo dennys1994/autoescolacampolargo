@@ -13,6 +13,11 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                grold: ['Grold', 'sans-serif'],
+            },
+            colors: {
+                primary: '#1A2352',
+                secondary: '#A40206',
             },
         },
     },

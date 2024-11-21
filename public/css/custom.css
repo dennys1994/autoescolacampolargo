@@ -1,0 +1,521 @@
+:root {
+    --primary-color: #1A2352;
+    /* Variável para a cor primária */
+    --second-color: #A40206;
+    --white: #fff;
+}
+
+@font-face {
+    font-family: 'Grold';
+    font-weight: 400;
+    src: url('../fonts/grold-regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Grold', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Garante que o body ocupe toda a altura da janela */
+    margin: 0;
+    background: #F1F5FF;
+}
+
+main {
+    flex: 1;
+    background: #F1F5FF;
+    /* Faz o conteúdo principal ocupar o espaço disponível */
+}
+
+/*HEADER*/
+#nav-logo {
+    width: 11.31rem;
+    height: 7.99rem;
+    display: block;
+    margin-left: 9.44rem;
+}
+
+.navbar-custom {
+    background-color: var(--primary-color) !important;
+    height: 104px;
+    /* Altura do menu */
+}
+
+.dropdown-menu {
+    background-color: var(--primary-color) !important;
+    padding: 47px !important;
+}
+
+.navbar-nav .nav-item .dropdown-item {
+    border: 1px solid white;
+    padding: 10px;
+    /* Ajuste o padding conforme necessário */
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.navbar-nav .nav-item .dropdown-toggle::after {
+    display: none;
+}
+
+.nav-item .dropdown-toggle img {
+    position: absolute;
+    bottom: -8px;
+    width: 12px;
+    /* Ajuste o tamanho da imagem da flecha */
+    height: auto;
+    /* Manter a proporção da imagem */
+    left: 60%;
+    transform: translateX(-60%);
+    /* Centraliza horizontalmente */
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+.nav-item .dropdown-toggle:hover img {
+    transform: rotate(180deg);
+    /* Rotaciona a flecha para indicar que o submenu está aberto */
+    z-index: 1000;
+}
+
+@media (min-width: 991px) {
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+        /* Exibe o menu quando o mouse passa por cima */
+        opacity: 1;
+        /* Garante que a opacidade do menu seja 100% */
+        visibility: visible;
+        /* Torna o menu visível */
+    }
+
+    .nav-item.dropdown .dropdown-menu {
+        display: none;
+        /* Esconde o menu por padrão */
+        position: absolute;
+        /* Garante o posicionamento absoluto do menu */
+        z-index: 1000;
+        /* Para garantir que o menu fique sobre outros elementos */
+        opacity: 0;
+        /* Faz o menu invisível quando não estiver visível */
+        visibility: hidden;
+        /* Torna o menu invisível */
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        /* Transição suave */
+    }
+}
+
+.navbar-custom .nav-link {
+    color: var(--white) !important;
+    margin-left: 41px;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-item .dropdown-item {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-item .dropdown-item:hover {
+    color: var(--primary-color) !important;
+    background-color: var(--white) !important;
+    border-radius: 50px 50px 50px 50px;
+}
+
+
+.navbar-custom .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+#escolaDropdown img {
+    left: 65%;
+}
+
+
+
+@media (max-width: 991px) {
+    .navbar {
+        padding: 0% !important;
+    }
+
+    .navbar-brand {
+        padding: 0% !important;
+    }
+
+    #nav-logo {
+        width: 151.39px;
+        height: 107px;
+        top: 2px;
+        gap: 0px;
+        opacity: 0px;
+        margin-left: 70%;
+    }
+
+    .navbar-custom {
+        height: 109px;
+        gap: 0px;
+        opacity: 0px;
+    }
+
+    .container-fluid {
+        background-color: var(--primary-color) !important;
+    }
+
+    .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    .navbar-custom .nav-link {
+        margin: auto;
+    }
+
+    #escolaDropdown img {
+        left: 50%;
+    }
+
+    .nav-item .dropdown-toggle img {
+        left: 50%;
+    }
+
+    .navbar-toggler:hover {
+        border-color: #fff;
+    }
+}
+
+/* Estilo base para desktop */
+.navbar-nav .nav-link,
+.navbar-nav .nav-item .dropdown-item {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    /* 1.25rem = 20px se a font-size base do HTML for 16px */
+}
+
+@media (max-width: 1280px) {
+
+    .navbar-nav .nav-link,
+    .navbar-nav .nav-item .dropdown-item {
+        font-size: 1rem;
+        /* Ajuste para 1.1rem para telas menores */
+    }
+
+    #nav-logo {
+        margin-left: 7rem;
+    }
+}
+
+/* Para telas de tablet (máximo 1024px) */
+@media (max-width: 1024px) {
+
+    .navbar-nav .nav-link,
+    .navbar-nav .nav-item .dropdown-item {
+        font-size: 1.25rem;
+    }
+}
+
+/* Para telas de celular (máximo 768px) */
+@media (max-width: 768px) {
+
+    .navbar-nav .nav-link,
+    .navbar-nav .nav-item .dropdown-item {
+        font-size: 1.25rem;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1050; /* Garantir que o menu fique acima do conteúdo */
+    }
+  
+}
+
+/* Para telas de celulares muito pequenos (máximo 480px) */
+@media (max-width: 480px) {
+
+    .navbar-nav .nav-link,
+    .navbar-nav .nav-item .dropdown-item {
+        font-size: 1.25rem;
+        /* Ajuste para 0.875rem (14px) para telas muito pequenas */
+    }
+}
+
+/*END HEADER*/
+
+/*Footer*/
+.custom-footer {
+    background-color: var(--second-color);
+    color: white;
+    position: relative;
+    /* Permite que o conteúdo dentro manipule o posicionamento */
+    overflow: visible;
+    /* Permite que a borda ultrapasse o container */
+    height: 130px;
+}
+
+.custom-container {
+    width: 100%;
+    margin: 0;
+}
+
+.custom-row {
+    margin-left: 8.60%;
+    display: grid;
+    grid-template-columns: 2fr 4fr 4fr 1fr 3fr;
+    justify-items: center;
+    /* Centraliza os itens horizontalmente */
+    align-items: center;
+    height: 130px;
+}
+
+.custom-logo {
+    min-height: 130px;
+    /* Altura mínima */
+    height: 100%;
+    /* Garante que ocupe a altura disponível */
+    padding: 20px 10px;
+    /* Espaçamento interno */
+    background-color: white;
+    /* Torna o fundo branco */
+    border-top-left-radius: 10%;
+    /* Bordas arredondadas maiores */
+    border-top-right-radius: 10%;
+    /* Bordas arredondadas maiores */
+    border: none;
+    /* Remove a borda */
+    position: relative;
+    /* Para controlar o deslocamento */
+    z-index: 1;
+    /* Traz o elemento para frente */
+    top: -30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
+    /* Adiciona sombra */
+}
+
+/* Ajuste no fundo do footer para integrar com o deslocamento */
+.custom-logo::after {
+    content: "";
+    /* Adiciona o pseudo-elemento */
+    position: absolute;
+    bottom: -30px;
+    /* Exatamente o deslocamento negativo usado em `.custom-logo` */
+    left: 0;
+    right: 0;
+    height: 30px;
+    /* Preenche o espaço abaixo */
+    background-color: var(--white);
+    /* Cor do footer */
+    z-index: -1;
+    /* Fica atrás da logo */
+    box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.custom-logo img {
+    width: 100%;
+    /* A imagem ocupará 100% da largura do contêiner */
+    height: auto;
+    /* A altura será ajustada automaticamente para manter a proporção */
+    object-fit: contain;
+    /* A imagem será redimensionada para caber no contêiner sem distorcer */
+    object-position: center;
+    /* Centraliza a imagem dentro do contêiner, se necessário */
+    margin-right: 30px;
+}
+
+.custom-adress {
+    font-size: 1.19vw;
+    margin-left: 20%;
+    margin-top: 20px;
+    
+}
+
+#fig-adress{
+    display: inline-flex;
+    /* Organiza os itens na mesma linha */
+    align-items: center;
+    /* Alinha verticalmente os elementos */
+    gap: 8px;
+    /* Espaço entre o ícone e o texto */
+}
+
+#fig-adress img {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+}
+
+#fig-adress p {
+    margin: 0;            /* Remove margens extras no parágrafo */
+    line-height: 1.5;     /* Ajusta a altura das linhas para melhorar a legibilidade */
+}
+
+.phone-item {
+    display: flex;
+    /* Cria um layout flexível */
+    align-items: center;
+    /* Centraliza os itens verticalmente */
+    gap: 10px;
+}
+
+.phone-space {
+    display: flex;
+    justify-content: space-between; /* Distribui o conteúdo entre a esquerda e a direita */
+    width: 100%; /* Garante que a largura do contêiner seja 100% */
+}
+
+.phone-space span,
+.phone-space a {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o conteúdo de cada item */
+    color: var(--white); /* Cor dos ícones */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.phone-space span {
+    margin-left: 5px;
+}
+
+.phone-space a {
+    margin-left: 5px;
+}
+
+
+.phone-space a:hover {
+    color: var(--primary-color);
+    /* Muda a cor ao passar o mouse (exemplo para Instagram) */
+}
+
+
+
+.custom-hours {
+    font-size: 1.19vw;
+}
+
+.custom-footer-item.custom-hours {
+    display: flex;
+    /* Cria um layout flexível */
+    align-items: center;
+    /* Centraliza os itens verticalmente */
+    gap: 10px; 
+}
+
+.custom-footer-item.custom-hours img {
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+}
+
+.custom-footer-item.custom-hours p {
+    margin: 0;            /* Remove margens extras no parágrafo */
+    line-height: 1.5;     /* Ajusta a altura das linhas para melhorar a legibilidade */
+}
+
+.custom-footer-item.custom-social {
+    display: flex;
+    /* Ativa o Flexbox */
+    justify-content: center;
+    /* Centraliza os ícones horizontalmente */
+    align-items: center;
+    /* Alinha os ícones verticalmente */
+    gap: 15px;
+    /* Espaçamento entre os ícones */
+}
+
+.custom-footer-item.custom-social a {
+    font-size: 28px;
+    color: var(--white);
+    /* Cor dos ícones (você pode ajustar conforme necessário) */
+    text-decoration: none;
+    /* Remove o sublinhado do link */
+}
+
+.custom-footer-item.custom-social a:hover {
+    color: var(--primary-color);
+    /* Muda a cor ao passar o mouse (exemplo para Instagram) */
+}
+
+.custom-map {
+    padding: 0;
+    margin: 0;
+    /* Remove qualquer margem externa */
+    max-height: 130px;
+    /* Define a altura máxima */
+    overflow: hidden;
+    /* Evita que o conteúdo extravase o contêiner */
+}
+
+.custom-map iframe {
+    width: 100%;
+    height: 130px;
+    /* Define a altura do iframe */
+    border: 0;
+    /* Remove a borda */
+    display: block;
+    /* Remove qualquer espaço extra abaixo do iframe */
+}
+
+#footer-mobile {
+    border-radius: 10px;
+    background: #A40206;
+}
+
+#footer-mobile .container{
+    padding: 0!important;
+}
+
+#footer-mobile ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #footer-mobile ul li {
+    font-size: 14px;
+    line-height: 1.6;
+    background-color: #1A2352;
+    margin-bottom: 6px;
+    width: 184.62px;
+    height: 33.68px;
+    border-radius: 32.43px;
+    font-family: Grold;
+    font-size: 20.2px;
+    font-weight: 400;
+    line-height: 20.2px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    padding-top: 5px;
+  }
+  
+  #footer-mobile h5 {
+    font-family: Grold;
+    font-size: 18.57px;
+    font-weight: 400;
+    line-height: 12.43px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  
+  #footer-mobile p {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  #footer-mobile .icon-small {
+    width: 20px;
+    height: 20px;
+}
+  
+  #map-container iframe {
+    border-radius: 10px;
+  }
+  
+
+/*End Footer*/
