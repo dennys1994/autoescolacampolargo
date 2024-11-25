@@ -13,9 +13,30 @@
     text-decoration-skip-ink: none;
 }
 
+#treinamento h1{
+    color: #1A2352;
+    font-family: Grold;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 25.06px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+#treinamento p{
+    color: #1A2352;
+    font-family: Grold;
+    font-size: 25.99px;
+    font-weight: 400;
+    line-height: 25.06px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
 
 
-#inclusao button{
+#treinamento button{
     background-color: #1A2352!important;
     color: #FFFFFF;
     border-radius: 17.79px;
@@ -31,36 +52,74 @@
     width: 25%;
 }
 
-#inclusao .card{
+#treinamento .card{
     border-radius:20px ;
     background-color: #1A2352;
     color: #FFFFFF;
     min-height: 100px;
 }
 
-#inclusao .card p{
+#treinamento .card p{
     padding-left: 20px;
+    color: #FFFFFF;
 }
 
-#inclusao img{
+#treinamento img{
+    width: auto;
+    height: 35px;
+}
+#treinamento i{
     width: auto;
     height: 35px;
 }
 
-#inclusao i{
-    width: auto;
-    height: 35px;
+#treinamento .fundo-branco{
+    background: #FFFFFF;
 }
+
+#treinamento .row{
+    padding: 0;
+    margin: 0;
+}
+
+
+#treinamento .col-12{
+    padding: 20px;
+}
+
 
 @media (min-width: 575.98px){
-   
+    #text-reciclage{
+        padding: 0 230px;
+    }
+
+    #title-treinamento{
+        padding: 20px 100px;
+    }
 }
 
 @media (max-width: 575.98px){
-    #inclusao button{
+    #treinamento button{
         width: 75%;
     }
     #top-tag h2 {     
         font-size: 23.59px;
+    }
+
+    #treinamento h1{
+        font-size: 18px;    
+    }
+    
+    #treinamento p{
+        font-size: 13px;       
+    }
+    
+    #treinamento img{
+        width: auto;
+        height: 20px;
+    }
+    #treinamento i{
+        width: auto;
+        height: 15px;
     }
 }

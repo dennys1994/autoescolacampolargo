@@ -12,3 +12,4 @@ Route::view('/avaliacao', 'avaliacao')->name('avaliacao');
 Route::view('/pre-matricula', 'pre_matricula')->name('pre_matricula');
 Route::view('/contato', 'contato')->name('contato');
 Route::view('/area-do-aluno', 'area_aluno')->name('area_aluno');
+Route::view('/treinamento', 'treinamento')->name('treinamento');

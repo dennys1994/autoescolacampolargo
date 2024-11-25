@@ -20,10 +20,10 @@
                     <p>Oferecemos cursos para quem já possui habilitação e deseja adicionar outra categoria. Não é necessário realizar aulas teóricas para a mudança de categoria, facilitando o processo.</p>
                 </div>
                  <!-- Card 1 -->
-                <div class="col-8">
+                <div class="col-10 col-md-8">
                     <div class="container">            
                         <div class="row">
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-4 mb-1">
                                 <div class="card text-center">
                                     <div class="card-body d-flex align-items-center">
                                         <i><img src="{{asset ('img/icons/exame.png')}}" alt="" srcset=""></i>
@@ -33,7 +33,7 @@
                             </div>
 
                             <!-- Card 2 -->
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-4 mb-1">
                                 <div class="card text-center" style="background: #890004">
                                     <div class="card-body d-flex align-items-center">
                                         <i><img src="{{asset ('img/icons/clock.png')}}" alt="" srcset=""></i>
@@ -42,11 +42,11 @@
                                 </div>
                             </div>
 
-                            <!-- Card 3 -->
-                            <div class="col-12 col-md-4">
+                            <!-- Card 3  style="visibility: hidden;"-->
+                            <div class="col-12 col-md-4 mb-1">
                                 <div class="card text-center">
                                     <div class="card-body d-flex align-items-center">
-                                        <i class="fa-solid fa-book fa-3x fa-invisible" style="visibility: hidden;"></i>
+                                        <i class="fa-solid fa-road fa-2x"></i>
                                         <p class="mb-0">AULAS PRÁTICAS<br>15 AULAS</p>
                                     </div>
                                 </div>

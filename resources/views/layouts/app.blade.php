@@ -58,7 +58,7 @@
                                 <li><a class="dropdown-item text-white" href="{{ route('reciclagem') }}">Reciclagem</a></li>
                                 <li><a class="dropdown-item text-white" href="{{ route('inclusao_categoria') }}">Inclusão de Categoria</a></li>
                                 <li><a class="dropdown-item text-white" href="{{ route('avaliacao') }}">Avaliação</a></li>
-                                <li><a class="dropdown-item text-white" href="#">Treinamento de Motoristas</a></li>
+                                <li><a class="dropdown-item text-white" href="{{ route('treinamento') }}">Treinamento de Motoristas</a></li>
                             </ul>
                         </li>
         
