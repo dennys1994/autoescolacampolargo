@@ -29,7 +29,7 @@
                             <div class="col-12">
                                 <div class="container">            
                                     <div class="row">
-                                        <div class="col-7 col-md-4">
+                                        <div class="col-6 col-md-4">
                                             <div class="card text-center">
                                                 <div class="card-body d-flex align-items-center">
                                                     <i><img src="{{asset ('img/icons/exame.png')}}" alt="" srcset=""></i>
@@ -39,7 +39,7 @@
                                         </div>
 
                                         <!-- Card 2 -->
-                                        <div class="col-5 col-md-3">
+                                        <div class="col-6 col-md-3">
                                             <div class="card text-center">
                                                 <div class="card-body d-flex align-items-center">
                                                     <i><img src="{{asset ('img/icons/clock.png')}}" alt="" srcset=""></i>
@@ -49,7 +49,7 @@
                                         </div>
 
                                         <!-- Card 3 -->
-                                        <div class="col-8 col-md-5">
+                                        <div class="col-12 col-md-5 ">
                                             <div class="card text-center" style="background-color: #890004">
                                                 <div class="card-body d-flex align-items-center">
                                                     <i><img src="{{asset ('img/icons/finger.png')}}" alt="" srcset=""></i>
@@ -61,7 +61,7 @@
                                 </div>
                             </div>                
                             <div class="col-12 text-center mt-4">
-                                <button class="btn">Faça sua<strong>&nbspmatrícula</strong></button>                            
+                                <a href="{{route ("pre_matricula")}}" class="btn">Faça sua<strong>&nbspmatrícula</strong></a>                            
                             </div>
                         </div>
                     </div>

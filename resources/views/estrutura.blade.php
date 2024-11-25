@@ -7,7 +7,7 @@
     <section id="nossas-vantagens">
         <div class="container">
             <div class="text-center mb-4">
-                <h2 class="d-inline-block text-white"><strong>ESTRUTURA</strong></h2>
+                <h2 class="d-inline-block text-white pb-1"><strong>ESTRUTURA</strong></h2>
             </div>
         </div>
     </section>
@@ -41,7 +41,7 @@
                         </div>
                     </div>
                 </div>
-                <button class="btn">Faça sua<strong>&nbspmatrícula</strong></button>
+                <a href="{{route ("pre_matricula")}}"class="btn">Faça sua<strong>&nbspmatrícula</strong></a>
             </div>
         </div>
 </section>

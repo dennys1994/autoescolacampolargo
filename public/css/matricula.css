@@ -1,0 +1,211 @@
+#top-tag h2 {
+    margin-top: -50px; /* Ajuste para que o título fique mais perto do banner */
+    background-color: #890004; /* Personalize a cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 75px 30px 10px; /* Ajuste o padding conforme necessário */
+    border-radius: 25px; /* Bordas arredondadas */
+    font-family: Grold;
+    font-size: 47.59px;
+    font-weight: 400;
+    line-height: 41.25px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+#matricula h1{
+    color: #1A2352;
+    font-family: Grold;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 25.06px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+#matricula p{
+    color: #1A2352;
+    font-family: Grold;
+    font-size: 25.99px;
+    font-weight: 400;
+    line-height: 25.06px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+
+#matricula button{
+    background-color: #1A2352!important;
+    color: #FFFFFF;
+    border-radius: 17.79px;
+    font-family: Grold;
+    font-size: 22.33px;
+    font-weight: 400;
+    line-height: 18.14px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 24px auto;
+    width: 25%;
+}
+
+#matricula .card{
+    border-radius:20px ;
+    background-color: #1A2352;
+    color: #FFFFFF;
+    min-height: 100px;
+}
+
+#matricula .card p{
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+
+#matricula img{
+    width: auto;
+    height: 35px;
+}
+#matricula i{
+    width: auto;
+    height: 35px;
+}
+
+#matricula .fundo-branco{
+    background: #FFFFFF;
+}
+
+#matricula .row{
+    padding: 0;
+    margin: 0;
+}
+
+#matricula input{
+    border-radius: 25px;
+    color: #1A235299;
+    opacity: 60%;
+    border: 1px solid #1A2352;
+}
+
+#matricula .form-bg{
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+#matricula .btn{
+    background: #1A2352;
+    border: 1px solid #1A2352;
+    
+}
+
+#matricula .alert-payament{
+    background: #890004;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza o conteúdo do alert */
+    align-items: center; /* Centraliza horizontalmente */
+    height: 100%;
+    margin-bottom: 10px ;
+}
+
+
+#matricula .alert-payament h5{
+    text-transform: uppercase;
+}
+
+
+#matricula .alert-payament ul {
+    list-style-type: none; /* Remove os pontos padrão */
+    padding-left: 0; /* Remove a indentação */
+}
+
+#matricula .alert-payament li::before {
+    content: "-"; /* Adiciona o hífen antes de cada item da lista */
+    margin-right: 8px; /* Espaçamento entre o hífen e o texto */
+}
+
+/* Centralizar a coluna com o alert-payament */
+#matricula .externo {
+    display: flex;
+    justify-content: space-between; /* Espaçamento entre as colunas */
+    align-items: center; /* Centraliza verticalmente as colunas */
+}
+
+
+@media (min-width: 575.98px){
+    #text-reciclage{
+        padding: 0 230px;
+    }
+
+    #title-matricula{
+        padding: 20px 100px;
+    }
+
+    /* Aplica o padding somente em telas maiores (desktop) */
+    .custom-padding-left {
+        padding-left: 0;
+    }
+    
+    .custom-padding-right {
+        padding-right: 0;
+    }
+
+}
+
+@media (max-width: 575.98px){
+    #matricula button{
+        width: 75%;        
+        text-align: center !important;
+        margin: auto!important;
+    }
+    #top-tag h2 {     
+        font-size: 23.59px;
+    }
+
+    #matricula h1{
+        font-size: 18px;    
+    }
+    
+    #matricula p{
+        font-size: 13px;       
+    }
+    
+    #matricula img{
+        width: auto;
+        height: 20px;
+    }
+    #matricula i{
+        width: auto;
+        height: 15px;
+    }
+
+    .custom-padding-left {
+        padding: 0;
+        margin-bottom: 16px;
+    }
+    
+    .custom-padding-right {
+        padding: 0;
+    }
+
+    .btn-desktop{
+        display: none;
+    }
+    
+}
+
+/* No celular (telas menores), centralize o botão */
+@media (max-width: 767px) {
+    .col-12.text-center {
+      text-align: center !important;
+    }
+  }
+  
+
+  

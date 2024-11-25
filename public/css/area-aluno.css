@@ -13,7 +13,7 @@
     text-decoration-skip-ink: none;
 }
 
-#treinamento h1{
+#area-aluno h1{
     color: #1A2352;
     font-family: Grold;
     font-size: 36px;
@@ -24,7 +24,7 @@
     text-decoration-skip-ink: none;
 }
 
-#treinamento p{
+#area-aluno p{
     color: #1A2352;
     font-family: Grold;
     font-size: 25.99px;
@@ -36,92 +36,117 @@
 }
 
 
-#treinamento a{
-    background-color: #1A2352!important;
+#area-aluno button{
+    background-color: #890004!important;
     color: #FFFFFF;
-    border-radius: 17.79px;
     font-family: Grold;
+    font-size: 38px;
     font-weight: 400;
-    line-height: 18.14px;
-    letter-spacing: -0.04em;
+    line-height: 36.63px;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin: 24px auto;
-    font-size: 40px;
-    width: 33%;
-    padding: 15px;
+    width: 535px;
+    height: 68px;
+    border-radius: 34px;    
 }
 
-#treinamento .card{
+#area-aluno .card{
     border-radius:20px ;
     background-color: #1A2352;
     color: #FFFFFF;
     min-height: 100px;
+    text-transform: uppercase;
 }
 
-#treinamento .card p{
+#area-aluno .card p{
     padding-left: 20px;
     color: #FFFFFF;
 }
 
-#treinamento img{
-    width: auto;
-    height: 35px;
+#area-aluno .icon-small {
+    width: 40px;
+    height: 40px;
+    text-align: left;
 }
-#treinamento i{
+#area-aluno i{
     width: auto;
     height: 35px;
 }
 
-#treinamento .fundo-branco{
+#area-aluno .fundo-branco{
     background: #FFFFFF;
 }
 
-#treinamento .row{
+#area-aluno .row{
     padding: 0;
     margin: 0;
 }
 
 
-#treinamento .col-12{
+#area-aluno .col-12{
     padding: 20px;
 }
 
+#title-area-aluno p{
+    text-align: center!important;
+}
+
+#area-aluno .container{
+    max-width: 100%;
+}
+
+.modal .card{
+    background: #FFFFFF;
+}
 
 @media (min-width: 575.98px){
     #text-reciclage{
         padding: 0 230px;
     }
 
-    #title-treinamento{
+    #title-area-aluno{
         padding: 20px 100px;
     }
 }
 
 @media (max-width: 575.98px){
-    #treinamento a{
+    #area-aluno button{
         width: 75%;
-        font-size: 23px;
+        font-size: 18px;
+    }
+    #area-aluno button .icon-small {
+        width: 25px;
+        height: 25px;
+        text-align: left;
     }
     #top-tag h2 {     
         font-size: 23.59px;
     }
 
-    #treinamento h1{
+    #area-aluno h1{
         font-size: 18px;    
     }
     
-    #treinamento p{
+    #area-aluno .card-text{
         font-size: 13px;       
     }
     
-    #treinamento img{
+    #area-aluno img{
         width: auto;
         height: 20px;
     }
-    #treinamento i{
+    #area-aluno i{
         width: auto;
         height: 15px;
+    }
+
+    #area-aluno .col-6{
+        padding: 0 5px 0 0;
+    }
+
+    #area-aluno .container{
+        padding: 3px;
     }
 }

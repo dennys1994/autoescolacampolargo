@@ -13,7 +13,7 @@
     text-decoration-skip-ink: none;
 }
 
-#treinamento h1{
+#contato h1{
     color: #1A2352;
     font-family: Grold;
     font-size: 36px;
@@ -24,7 +24,7 @@
     text-decoration-skip-ink: none;
 }
 
-#treinamento p{
+#contato p{
     color: #1A2352;
     font-family: Grold;
     font-size: 25.99px;
@@ -36,92 +36,100 @@
 }
 
 
-#treinamento a{
+#contato button{
     background-color: #1A2352!important;
     color: #FFFFFF;
-    border-radius: 17.79px;
-    font-family: Grold;
-    font-weight: 400;
-    line-height: 18.14px;
-    letter-spacing: -0.04em;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 19px;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin: 24px auto;
-    font-size: 40px;
-    width: 33%;
-    padding: 15px;
+    width: 318px;
+    height: 70px;
+    border-radius: 61px;
+
+
 }
 
-#treinamento .card{
+#contato .card{
     border-radius:20px ;
     background-color: #1A2352;
     color: #FFFFFF;
     min-height: 100px;
 }
 
-#treinamento .card p{
+#contato .card p{
     padding-left: 20px;
     color: #FFFFFF;
 }
 
-#treinamento img{
-    width: auto;
-    height: 35px;
+#contato .icon-small {
+    width: 40px;
+    height: 40px;
+    text-align: left;
 }
-#treinamento i{
+#contato i{
     width: auto;
     height: 35px;
 }
 
-#treinamento .fundo-branco{
+#contato .fundo-branco{
     background: #FFFFFF;
 }
 
-#treinamento .row{
+#contato .row{
     padding: 0;
     margin: 0;
 }
 
 
-#treinamento .col-12{
+#contato .col-12{
     padding: 20px;
 }
 
+#title-contato p{
+    text-align: center!important;
+}
 
 @media (min-width: 575.98px){
     #text-reciclage{
         padding: 0 230px;
     }
 
-    #title-treinamento{
+    #title-contato{
         padding: 20px 100px;
     }
 }
 
 @media (max-width: 575.98px){
-    #treinamento a{
+    #contato button{
         width: 75%;
-        font-size: 23px;
     }
     #top-tag h2 {     
         font-size: 23.59px;
     }
 
-    #treinamento h1{
+    #contato h1{
         font-size: 18px;    
     }
     
-    #treinamento p{
-        font-size: 13px;       
+    #contato p{
+        font-size: 25px;       
     }
     
-    #treinamento img{
+    #contato img{
         width: auto;
         height: 20px;
     }
-    #treinamento i{
+    #contato i{
         width: auto;
         height: 15px;
+    }
+
+    #contato .col-12{
+        padding: 0;
     }
 }

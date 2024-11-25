@@ -1,3 +1,19 @@
+#top-tag h2 {
+    margin-top: -50px; /* Ajuste para que o título fique mais perto do banner */
+    background-color: #890004; /* Personalize a cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 75px 30px 10px; /* Ajuste o padding conforme necessário */
+    border-radius: 25px; /* Bordas arredondadas */
+    font-family: Grold;
+    font-size: 47.59px;
+    font-weight: 400;
+    line-height: 41.25px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+
 #primeirahabilitacao .container {
     padding: 0;
     margin: 0;
@@ -57,7 +73,6 @@
     background: #1A2352;
     color: #FFFFFF;
     border-radius: 20px;
-    min-height: 150px;
 }
 
 #primeirahabilitacao .card i{
@@ -81,12 +96,11 @@
   
 }
 
-#primeirahabilitacao button{
+#primeirahabilitacao a{
     background-color: #1A2352!important;
     color: #FFFFFF;
     border-radius: 17.79px;
     font-family: Grold;
-    font-size: 22.33px;
     font-weight: 400;
     line-height: 18.14px;
     letter-spacing: -0.04em;
@@ -94,18 +108,27 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin: 24px auto;
-    width: 25%;
+    font-size: 40px;
+    width: 33%;
+    padding: 15px;
 }
 
 
+@media (min-width: 575.98px){
+    
+    #primeirahabilitacao .card{
+        min-height: 150px;
+    }
+}
 
 @media (max-width: 575.98px){
     #primeirahabilitacao{
         margin: 0 25px 0 25px;
     }
     
-    #primeirahabilitacao button{
+    #primeirahabilitacao a{
         width: 75%;
+        font-size: 25px;
     }
 
     #primeirahabilitacao .card-aula h1{
@@ -135,8 +158,8 @@
     }
 
     #primeirahabilitacao .card{
-        min-height: 180px;
         margin-bottom: 5px;
+        min-height: 100px;
     }
 
     #primeirahabilitacao .card-body{

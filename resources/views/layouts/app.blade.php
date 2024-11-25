@@ -11,6 +11,10 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+
     @stack('styles')
 </head>
 <body>
@@ -57,7 +61,7 @@
                                 <li><a class="dropdown-item text-white" href="{{ route('primeira_habilitacao') }}">1ª Habilitação</a></li>
                                 <li><a class="dropdown-item text-white" href="{{ route('reciclagem') }}">Reciclagem</a></li>
                                 <li><a class="dropdown-item text-white" href="{{ route('inclusao_categoria') }}">Inclusão de Categoria</a></li>
-                                <li><a class="dropdown-item text-white" href="{{ route('avaliacao') }}">Avaliação</a></li>
+                                <!--<li><a class="dropdown-item text-white" href="{{ route('treinamento') }}">Avaliação</a></li>-->
                                 <li><a class="dropdown-item text-white" href="{{ route('treinamento') }}">Treinamento de Motoristas</a></li>
                             </ul>
                         </li>
@@ -106,7 +110,7 @@
                         <i class="fa-solid fa-phone"></i>&nbsp
                         (41) <strong>3032-1212</strong>
                     </span>
-                    <a  href="https://www.instagram.com" target="_blank">
+                    <a  href="https://api.whatsapp.com/send?phone=5541998073444" target="_blank">
                         <i class="fa-brands fa-whatsapp"></i>&nbsp
                         (41) <strong>99807-3444</strong>
                     </a>
@@ -124,10 +128,10 @@
             
             <!-- Redes Sociais -->
             <div class="custom-footer-item custom-social">
-                <a href="https://www.instagram.com" target="_blank">
+                <a href="https://www.instagram.com/autoescolacampolargo/" target="_blank">
                     <i class="fab fa-instagram"></i> <!-- Ícone do Instagram -->
                 </a>
-                <a href="https://www.facebook.com" target="_blank">
+                <a href="https://www.facebook.com/p/Auto-Escola-Campo-Largo-100063636100635/" target="_blank">
                     <i class="fab fa-facebook-f"></i> <!-- Ícone do Facebook -->
                 </a>
             </div>
@@ -148,14 +152,14 @@
             <div class="col-6" style="padding-left: 32px;">
               <h5>Entre em Contato</h5>
               <ul class="list-unstyled mb-3 ">
-                <li><i class="fa-solid fa-phone"></i>&nbsp(11)<strong>1234-5678</strong></li>
-                <li><i class="fa-brands fa-whatsapp"></i>&nbsp(11)<strong>98765-4321</strong></li>
+                <li><a href="tel:+554130321212"  style="text-decoration: none; color: inherit;"><i class="fa-solid fa-phone"></i>&nbsp(41)&nbsp<strong>3032-1212</strong></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5541998073444"  style="text-decoration: none; color: inherit;" target="_blank"><i class="fa-brands fa-whatsapp"></i>&nbsp(41)&nbsp<strong>99807-3444</strong></a></li>
               </ul>
               <div class="d-flex">
-                <a href="https://facebook.com" target="_blank" class="me-3 text-white">
+                <a href="https://www.facebook.com/p/Auto-Escola-Campo-Largo-100063636100635/" target="_blank" class="me-3 text-white">
                   <i class="fab fa-facebook fa-2x"></i>
                 </a>
-                <a href="https://instagram.com" target="_blank" class="text-white">
+                <a href="https://www.instagram.com/autoescolacampolargo/" target="_blank" class="text-white">
                   <i class="fab fa-instagram fa-2x"></i>
                 </a>
               </div>
@@ -186,7 +190,7 @@
             <div class="col-12">
               <div id="map-container" style="width: 100%; height: 200px;">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509308!2d-122.41941508468157!3d37.77492927975915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064f6f9ad33%3A0xd7e2f921b1c2c221!2sGoogle!5e0!3m2!1sen!2sus!4v1674051234567!5m2!1sen!2sus" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1801.1865358738207!2d-49.52890825557251!3d-25.459215200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dd19d5277bb62f%3A0xdf6682a3ed771959!2sAutoescola%20Campo%20Largo!5e0!3m2!1spt-BR!2sbr!4v1732124358979!5m2!1spt-BR!2sbr" 
                   width="100%" 
                   height="100%" 
                   style="border:0;" 

@@ -7,7 +7,7 @@
     <section id="nossas-vantagens">
         <div class="container">
             <div class="text-center mb-4">
-                <h2 class="d-inline-block text-white">A <strong>ESCOLA</strong></h2>
+                <h2 class="d-inline-block text-white pb-1">A <strong>ESCOLA</strong></h2>
             </div>
         </div>
     </section>
@@ -42,7 +42,9 @@
                         </div>
                     </div>
                 </div>
-                <button class="btn">Conheça nossa <strong>estrutura</strong></button>
+              
+                    <a href="{{route ("estrutura")}}" class="btn">Conheça nossa <strong>estrutura</strong></a>
+                
             </div>
         </div>
     </section>

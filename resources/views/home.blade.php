@@ -192,7 +192,7 @@
               <div class="card text-center rounded-0" style="background-color: #A40206; color: white;">
                 <div class="card-body">
                   <h5 class="card-title">AVALIAÇÃO E TREINAMENTO DE MOTORISTAS</h5>
-                  <a href="{{ route('avaliacao') }}"><button class="btn btn-light rounded-pill">Saiba Mais</button></a>
+                  <a href="{{ route('treinamento') }}"><button class="btn btn-light rounded-pill">Saiba Mais</button></a>
                 </div>
               </div>
             </div>

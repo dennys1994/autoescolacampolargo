@@ -17,11 +17,10 @@
             <div class="row d-flex justify-content-around">
                 <!-- Primeira Coluna -->
                 <div class="col-12" id="title-treinamento">
-                    <h1>Avaliação e Treinamento de Motoristas</h1>
                     <p>Por meio deste serviço, avaliamos candidatos a motorista, identificando o profissional com o perfil mais adequado para exercer a função com excelência.</p>
                 </div>                                 
-                <div class="col-12 text-center mt-4">
-                    <button class="btn">Faça sua<strong>&nbspmatrícula</strong></button>                            
+                <div class="col-12 text-center mt-2 mt-md-4">
+                    <a href="{{route ("pre_matricula")}}" class="btn">Faça sua<strong>&nbspmatrícula</strong></a>                            
                 </div>          
             </div>
         </div>

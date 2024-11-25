@@ -5,20 +5,24 @@
     --white: #fff;
 }
 
+
+
+
 @font-face {
     font-family: 'Grold';
     font-weight: 200;
-    src: url('../fonts/Grold-SemiLight.ttf') format('opentype');
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
+
+
 
 body {
     font-family: 'Grold', sans-serif !important;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /* Garante que o body ocupe toda a altura da janela */
     margin: 0;
     background: #F1F5FF;
 }
@@ -250,11 +254,9 @@ main {
 .custom-footer {
     background-color: var(--second-color);
     color: white;
-    position: relative;
-    /* Permite que o conteúdo dentro manipule o posicionamento */
     overflow: visible;
-    /* Permite que a borda ultrapasse o container */
-    height: 130px;
+    height: auto; /* Ajusta a altura conforme o conteúdo */
+
 }
 
 .custom-container {
@@ -269,7 +271,7 @@ main {
     justify-items: center;
     /* Centraliza os itens horizontalmente */
     align-items: center;
-    height: 130px;
+    height: auto;
 }
 
 .custom-logo {
@@ -442,7 +444,8 @@ main {
     padding: 0;
     margin: 0;
     /* Remove qualquer margem externa */
-    max-height: 130px;
+    width: 100%;
+    max-height: 100%;
     /* Define a altura máxima */
     overflow: hidden;
     /* Evita que o conteúdo extravase o contêiner */
@@ -450,7 +453,7 @@ main {
 
 .custom-map iframe {
     width: 100%;
-    height: 130px;
+    height: 100%;
     /* Define a altura do iframe */
     border: 0;
     /* Remove a borda */
@@ -461,6 +464,7 @@ main {
 #footer-mobile {
     border-radius: 10px;
     background: #A40206;
+    padding-bottom: 0!important;
 }
 
 #footer-mobile .container{

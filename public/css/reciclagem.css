@@ -36,12 +36,11 @@
 }
 
 
-#reciclagem button{
+#reciclagem a{
     background-color: #1A2352!important;
     color: #FFFFFF;
     border-radius: 17.79px;
     font-family: Grold;
-    font-size: 22.33px;
     font-weight: 400;
     line-height: 18.14px;
     letter-spacing: -0.04em;
@@ -49,7 +48,9 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin: 24px auto;
-    width: 25%;
+    font-size: 40px;
+    width: 33%;
+    padding: 15px;
 }
 
 #reciclagem .card{
@@ -93,6 +94,9 @@
     padding: 20px;
 }
 
+#reciclagem .col-md-5{
+    padding: 0!important;
+}
 
 @media (min-width: 575.98px){
     #text-reciclage{
@@ -105,8 +109,9 @@
 }
 
 @media (max-width: 575.98px){
-    #reciclagem button{
+    #reciclagem a{
         width: 75%;
+        font-size: 23px;
     }
     #top-tag h2 {     
         font-size: 23.59px;
@@ -127,5 +132,9 @@
     #reciclagem i{
         width: auto;
         height: 15px;
+    }
+
+    #reciclagem .col-md-5{
+        margin-top: 8px;
     }
 }

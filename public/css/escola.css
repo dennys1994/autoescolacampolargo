@@ -38,12 +38,12 @@
     padding: 0;
 }
 
-#a-escola button{
+#a-escola a{
     background-color: #1A2352!important;
     color: #FFFFFF;
     border-radius: 17.79px;
     font-family: Grold;
-    font-size: 22.33px;
+    font-size: 30px;
     font-weight: 400;
     line-height: 18.14px;
     letter-spacing: -0.04em;
@@ -51,7 +51,8 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin: 24px auto;
-    width: 25%;
+    width: 33%;
+    padding: 15px;
 }
 
 @media (min-width: 575.98px){
@@ -69,7 +70,7 @@
         margin-bottom: 5px;
         border-radius: 27.85px;
     }
-    #a-escola button{
+    #a-escola a{
         width: 75%;
     }
 }
