@@ -14,6 +14,8 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::post('/contato', [ContatoController::class, 'store']);
+Route::post('/prematricula', [PrematriculaController::class, 'store'])->name('prematricula.store');
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -27,7 +29,7 @@ Route::middleware('auth')->group(function () {
 
     // Rota para lista de pré-matrículas
     Route::get('/pre-matricula/lista', [PreMatriculaController::class, 'index'])->name('pre-matricula.lista');
-
+    Route::delete('/prematricula/{id}', [PrematriculaController::class, 'destroy'])->name('prematricula.delete');
 
 });
 

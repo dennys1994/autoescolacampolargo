@@ -16,57 +16,59 @@
             <div class="row externo">
               <!-- Coluna do Formulário -->
               <div class="col-lg-8 form-bg">
-                <form>
+                <form action="{{ route('prematricula.store') }}" method="POST" enctype="multipart/form-data">
+                  @csrf
+
                   <!-- Campo Nome -->
-                  <div class="col-md-12 mb-3">                
-                    <input type="text" class="form-control" id="nome" placeholder="Nome">
+                  <div class="col-md-12 mb-3">
+                      <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome" required>
                   </div>
-        
+
                   <!-- Campo Telefone e Email -->
                   <div class="row mb-3">
-                    <div class="col-md-6 custom-padding-left">
-                        <input type="tel" class="form-control" id="telefone" placeholder="Telefone">
-                    </div>
-                    <div class="col-md-6 custom-padding-right">
-                        <input type="email" class="form-control" id="email" placeholder="Email">
-                    </div>
-                </div>
-                
-        
-                  <!-- Campo Categoria e anexo-->
-                  <div class="row mb-3">
-                    <div class="col-md-6 custom-padding-left">
-                      <input type="tel" class="form-control" id="Categoria" placeholder="Categoria">
-                    </div>
-                    <div class="col-md-6 custom-padding-right ">
-                        <!-- Para Desktop -->
-                        <label for="anexo" class="btn btn-primary w-100 rounded-4 d-none d-md-block">
-                            <i class="fa fa-paperclip fa-2x" aria-hidden="true"></i>
-                            Anexo RG/CPF e comprovante de residência
-                        </label>
-
-                        <!-- Para Celular -->
-                        <label for="anexo" class="btn btn-primary w-100 rounded-4 d-flex justify-content-center align-items-center d-block d-md-none">
-                            <i class="fa fa-paperclip fa-2x" aria-hidden="true"></i>
-                            Anexo RG/CPF e comprovante de residência
-                        </label>
-
-                        <input type="file" class="form-control" id="anexo" multiple style="display: none;">
-                    </div>
+                      <div class="col-md-6 custom-padding-left">
+                          <input type="tel" class="form-control" name="telefone" id="telefone" placeholder="Telefone" required>
+                      </div>
+                      <div class="col-md-6 custom-padding-right">
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                      </div>
                   </div>
-        
+
+                  <!-- Campo Categoria -->
+                  <div class="row mb-3">
+                      <div class="col-md-6 custom-padding-left">
+                          <input type="text" class="form-control" name="categoria" id="categoria" placeholder="Categoria" required>
+                      </div>
+                      <div class="col-md-6 custom-padding-right">
+                          <label for="anexo" class="btn btn-primary w-100 rounded-4 d-none d-md-block">
+                              <i class="fa fa-paperclip fa-2x" aria-hidden="true"></i>
+                              Anexo RG/CPF e comprovante de residência
+                          </label>
+
+                          <label for="anexo" class="btn btn-primary w-100 rounded-4 d-flex justify-content-center align-items-center d-block d-md-none">
+                              <i class="fa fa-paperclip fa-2x" aria-hidden="true"></i>
+                              Anexo RG/CPF e comprovante de residência
+                          </label>
+
+                          <input type="file" class="form-control" name="anexo[]" id="anexo" multiple style="display: none;" required>
+                          <small>Máximo de 3 arquivos, até 5MB cada, formato PDF ou Imagem</small>
+                      </div>
+                  </div>
+
                   <!-- Botão de Enviar -->
-                  <button type="submit" class="btn btn-primary btn-desktop" style="background: #A40206!important; border: 1px solid #A40206!important;">Enviar Mensagem</button>
+                  <button type="submit" class="btn btn-primary btn-desktop" style="background: #A40206!important; border: 1px solid #A40206!important;">
+                      Enviar Mensagem
+                  </button>
 
+                  <!-- Botão para Mobile -->
                   <div class="row mb-3">
-                    <div class="col-12 text-center d-block d-md-none">
-                      <button type="submit" class="btn btn-primary" style="background: #A40206!important; border: 1px solid #A40206!important;">
-                        Enviar Mensagem
-                      </button>
-                    </div>
+                      <div class="col-12 text-center d-block d-md-none">
+                          <button type="submit" class="btn btn-primary" style="background: #A40206!important; border: 1px solid #A40206!important;">
+                              Enviar Mensagem
+                          </button>
+                      </div>
                   </div>
-                  
-                </form>
+              </form>
               </div>
         
                 <!-- Coluna do Aviso -->
