@@ -39,12 +39,14 @@
                                 <hr>
                                 <div class="conteudo col-12">   
                                     <div class="container-fluid">
-                                        <div class="row d-flex justify-content-center"> 
+                                        <div class="row d-flex justify-content-center  ju"> 
                                             <!-- Card 1: Aulas Teóricas Online -->
                                             <div class="col-12 col-md-2 ">
                                                 <div class="card text-center">
-                                                    <div class="card-body d-flex align-items-center">
-                                                        <i class="fa-solid fa-mobile fa-3x"></i>
+                                                    <div class="card-body d-flex align-items-center ">
+                                                        <div class="icon-container">
+                                                            <i class="fa fa-mobile"></i>
+                                                        </div>                                                        
                                                         <p>AULAS TEÓRICAS<br><strong>ONLINE</strong><br><strong>45 AULAS</strong></p>
                                                     </div>
                                                 </div>
@@ -54,7 +56,9 @@
                                             <div class="col-12 col-md-2">
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center">
-                                                        <i class="fa-solid fa-car fa-3x"></i>
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-car "></i>
+                                                        </div>
                                                         <p>AULAS PRÁTICAS<br><strong>CARRO</strong><br><strong>20 AULAS</strong></p>
                                                     </div>
                                                 </div>
@@ -64,7 +68,9 @@
                                             <div class="col-12 col-md-2">
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center">
-                                                        <i class="fa-solid fa-motorcycle fa-3x me-3"></i>
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-motorcycle  me-3"></i>
+                                                        </div>
                                                         <p>AULAS PRÁTICAS<br><strong>MOTO</strong><br><strong>20 AULAS</strong></p>
                                                     </div>
                                                 </div>
@@ -75,7 +81,9 @@
                                             <div class="col-12 col-md-4">
                                                 <div class="card text-white" style="background: #890004;">
                                                     <div class="card-body d-flex align-items-center">
-                                                        <i class="fa-solid fa-fingerprint fa-3x"></i>
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-fingerprint "></i>
+                                                        </div>
                                                         <p>DOCUMENTOS NECESSÁRIOS<br><strong>RG; CPF E comprovante de residência.</strong></p>
                                                     </div>
                                                 </div>
@@ -104,7 +112,9 @@
                                             <div class="col-12 col-md-2 d-none d-sm-bloc">
                                                 <div class="card text-center" style="visibility:hidden">
                                                     <div class="card-body d-flex align-items-center">
-                                                        <i class="fa-solid fa-motorcycle fa-3x me-3"></i>
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-motorcycle  me-3"></i>
+                                                        </div>
                                                         <p>AULAS PRÁTICAS<br><strong>MOTO</strong><br><strong>20 AULAS</strong></p>
                                                     </div>
                                                 </div>
@@ -114,7 +124,9 @@
                                             <div class="col-12 col-md-2">
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center">
-                                                        <i class="fa-solid fa-mobile fa-3x"></i>
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-mobile "></i>
+                                                        </div>
                                                         <p>AULAS TEÓRICAS<br><strong>ONLINE</strong><br><strong>45 AULAS</strong></p>
                                                     </div>
                                                 </div>
@@ -124,7 +136,9 @@
                                             <div class="col-12 col-md-2">
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center">
-                                                        <i class="fa-solid fa-car fa-3x"></i>
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-car "></i>
+                                                        </div>
                                                         <p>AULAS PRÁTICAS<br><strong>CARRO</strong><br><strong>20 AULAS</strong></p>
                                                     </div>
                                                 </div>
@@ -137,7 +151,9 @@
                                             <div class="col-12 col-md-4">
                                                 <div class="card text-white" style="background: #890004;">
                                                     <div class="card-body d-flex align-items-center">
-                                                        <i class="fa-solid fa-fingerprint fa-3x"></i>
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-fingerprint "></i>
+                                                        </div>
                                                         <p>DOCUMENTOS NECESSÁRIOS<br><strong>RG; CPF E comprovante de residência.</strong></p>
                                                     </div>
                                                 </div>
@@ -166,7 +182,9 @@
                                             <div class="col-12 col-md-2 d-none d-sm-bloc">
                                                 <div class="card text-center" style="visibility: hidden;">
                                                     <div class="card-body d-flex align-items-center">
-                                                        <i class="fa-solid fa-car fa-3x"></i>
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-car "></i>
+                                                        </div>
                                                         <p>AULAS PRÁTICAS<br><strong>CARRO</strong><br><strong>20 AULAS</strong></p>
                                                     </div>
                                                 </div>
@@ -176,7 +194,9 @@
                                             <div class="col-12 col-md-2">
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center">
-                                                        <i class="fa-solid fa-mobile fa-3x"></i>
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-mobile "></i>
+                                                        </div>
                                                         <p>AULAS TEÓRICAS<br><strong>ONLINE</strong><br><strong>45 AULAS</strong></p>
                                                     </div>
                                                 </div>
@@ -188,7 +208,9 @@
                                             <div class="col-12 col-md-2">
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center">
-                                                        <i class="fa-solid fa-motorcycle fa-3x me-3"></i>
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-motorcycle  me-3"></i>
+                                                        </div>
                                                         <p>AULAS PRÁTICAS<br><strong>MOTO</strong><br><strong>20 AULAS</strong></p>
                                                     </div>
                                                 </div>
@@ -199,7 +221,9 @@
                                             <div class="col-12 col-md-4">
                                                 <div class="card text-white" style="background: #890004;">
                                                     <div class="card-body d-flex align-items-center">
-                                                        <i class="fa-solid fa-fingerprint fa-3x"></i>
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-fingerprint "></i>
+                                                        </div>
                                                         <p>DOCUMENTOS NECESSÁRIOS<br><strong>RG; CPF E comprovante de residência.</strong></p>
                                                     </div>
                                                 </div>

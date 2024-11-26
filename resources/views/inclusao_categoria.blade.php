@@ -55,7 +55,7 @@
                     </div>
                 </div>
                 <div class="col-12 text-center mt-4">
-                    <button class="btn">Faça sua<strong>&nbspmatrícula</strong></button>                            
+                    <a href="{{route("pre_matricula")}}"class="btn">Faça sua<strong>&nbspmatrícula</strong></a>                            
                 </div>
             </div>
         </div>

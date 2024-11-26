@@ -15,7 +15,7 @@
 
 
 
-#inclusao button{
+#inclusao a{
     background-color: #1A2352!important;
     color: #FFFFFF;
     border-radius: 17.79px;
@@ -58,7 +58,7 @@
 }
 
 @media (max-width: 575.98px){
-    #inclusao button{
+    #inclusao a{
         width: 75%;
         font-size: 20px;
     }

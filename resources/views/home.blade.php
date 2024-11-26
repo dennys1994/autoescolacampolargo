@@ -214,7 +214,7 @@
                     <div class="card text-center rounded-0" style="background-color: #1A2352; color: white;">
                         <div class="card-body">
                             <h5 class="card-title">1º HABILITAÇÃO</h5>
-                            <button class="btn-matricula">Saiba Mais</button>
+                            <a href="{{route("primeira_habilitacao")}}"><button class="btn-matricula">Saiba Mais</button></a>
                         </div>
                     </div>
                 </div>
@@ -224,7 +224,7 @@
                     <div class="card text-center rounded-0" style="background-color: #A40206; color: white;">
                         <div class="card-body">
                             <h5 class="card-title">RECICLAGEM</h5>
-                            <button class="btn-matricula">Saiba Mais</button>
+                            <a href="{{route("reciclagem")}}"><button class="btn-matricula">Saiba Mais</button></a>
                         </div>
                     </div>
                 </div>
@@ -234,7 +234,7 @@
                     <div class="card text-center rounded-0" style="background-color: #A40206; color: white;">
                         <div class="card-body">
                             <h5 class="card-title">ALTERAÇÃO OU INCLUSÃO DE CATEGORIA</h5>
-                            <button class="btn-matricula">Saiba Mais</button>
+                            <a href="{{route("inclusao_categoria")}}"><button class="btn-matricula">Saiba Mais</button></a>
                         </div>
                     </div>
                 </div>
@@ -244,7 +244,7 @@
                     <div class="card text-center rounded-0" style="background-color: #1A2352; color: white;">
                         <div class="card-body">
                             <h5 class="card-title">AVALIAÇÃO E TREINAMENTO DE MOTORISTAS</h5>
-                            <button class="btn-matricula">Saiba Mais</button>
+                            <a href="{{route("treinamento")}}"><button class="btn-matricula">Saiba Mais</button></a>
                         </div>
                     </div>
                 </div>

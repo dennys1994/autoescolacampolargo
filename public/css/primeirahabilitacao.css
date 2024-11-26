@@ -79,6 +79,7 @@
     width: auto;
     height: 25px;
     padding-right: 5px;
+    font-size: 2.5rem;
 }
 #primeirahabilitacao .card p{
     color: #FFFFFF;
@@ -147,14 +148,17 @@
      #primeirahabilitacao .card-aula .col-8{
         padding: 0;
      }
-     #primeirahabilitacao .card i{
-        width: auto;
-        height: 15px;
-        padding-right: 5px;
+     #primeirahabilitacao .card i:before{
+        width: 45px;
+        height: 45px;
+    }
+
+    #primeirahabilitacao .card i{
+        font-size: 45px;
     }
     #primeirahabilitacao .card p{
         font-size:14px;
-        margin: auto;
+        margin-left: 20px;
     }
 
     #primeirahabilitacao .card{
@@ -164,5 +168,11 @@
 
     #primeirahabilitacao .card-body{
         padding: 6px;
+    }
+
+    .icon-container {
+        width: 50px; /* Define um espaço fixo para o ícone */
+        text-align: center; /* Centraliza o ícone dentro do container */
+        margin-right: 10px; /* Espaço entre o ícone e o texto */
     }
 }

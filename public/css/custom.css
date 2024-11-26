@@ -194,7 +194,7 @@ main {
 .navbar-nav .nav-link,
 .navbar-nav .nav-item .dropdown-item {
     text-transform: uppercase;
-    font-size: 1.25rem;
+    font-size: 1rem;
     /* 1.25rem = 20px se a font-size base do HTML for 16px */
 }
 
@@ -216,7 +216,7 @@ main {
 
     .navbar-nav .nav-link,
     .navbar-nav .nav-item .dropdown-item {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 }
 
@@ -225,7 +225,7 @@ main {
 
     .navbar-nav .nav-link,
     .navbar-nav .nav-item .dropdown-item {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     .navbar {
@@ -243,7 +243,7 @@ main {
 
     .navbar-nav .nav-link,
     .navbar-nav .nav-item .dropdown-item {
-        font-size: 1.25rem;
+        font-size: 1rem;
         /* Ajuste para 0.875rem (14px) para telas muito pequenas */
     }
 }
@@ -528,4 +528,8 @@ main {
 
 .d-flex{
     display: flex;
+}
+
+.nav-item.dropdown{
+    height: 100%;
 }

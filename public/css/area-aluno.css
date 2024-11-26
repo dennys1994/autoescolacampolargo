@@ -99,8 +99,29 @@
 
 .modal .card{
     background: #FFFFFF;
+    min-height: 120px;
+    border-radius: 17px;
 }
 
+.card-body h3 {
+    background: #A40206;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 15px;;
+}
+
+.card-body p{
+    color: #1A2352;
+    font-family: Grold;
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 27px;
+}
+
+.card-body p img{
+    height: 30px;
+    width: 30px;
+}
 @media (min-width: 575.98px){
     #text-reciclage{
         padding: 0 230px;
