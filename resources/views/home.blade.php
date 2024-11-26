@@ -390,18 +390,19 @@
             <div class="col-12 col-lg-8">
                 <div class="card shadow">
                 <div class="card-body">
-                    <form>
+                  <form id="contatoForm" action="{{ url('/contato') }}" method="POST">
+                    @csrf
                     <!-- Nome -->
                     <div class="mb-3">
-                        <input type="text" id="nome" class="form-control" placeholder="Nome" required>
+                        <input type="text" id="nome" name="nome" class="form-control" placeholder="Nome" required>
                     </div>
                     <!-- Telefone e Email -->
                     <div class="row g-3">
                         <div class="col-md-6">
-                        <input type="tel" id="telefone" class="form-control" placeholder="Telefone" required>
+                            <input type="tel" id="telefone" name="telefone" class="form-control" placeholder="Telefone" required>
                         </div>
                         <div class="col-md-6">
-                        <input type="email" id="email" class="form-control" placeholder="Email" required>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
                         </div>
                     </div>
                     <!-- Botões -->
@@ -409,7 +410,15 @@
                         <button type="button" class="btn btn-outline-primary">SERVIÇO <i class="fa fa-bars"></i></button>
                         <button type="submit" class="btn btn-solicitar">Solicitar</button>
                     </div>
-                    </form>
+                </form>
+                
+                
+                    <!-- Mensagem de Sucesso -->
+                    @if (session('success'))
+                        <div class="alert alert-success mt-4">
+                            {{ session('success') }}
+                        </div>
+                    @endif
                 </div>
                 </div>
             </div>
@@ -433,7 +442,38 @@
         });
 
       </script>
-      
+      <script>
+        document.getElementById('contatoForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Impede o envio padrão do formulário
+    
+            // Cria um FormData com os dados do formulário
+            var formData = new FormData(this);
+    
+            // Envia o formulário com AJAX
+            fetch('{{ url('/contato') }}', {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content') // Inclui o token CSRF
+                }
+            })
+            .then(response => response.json())  // Espera uma resposta em JSON
+            .then(data => {
+                if(data.success) {
+                  this.reset(); // Limpa o formulário após o envio bem-sucedido
+                    alert('Formulário enviado com sucesso!');
+                    
+                } else {
+                    alert('Ocorreu um erro ao enviar o formulário.');
+                }
+            })
+            .catch(error => {
+                console.error('Erro:', error);
+                alert('Ocorreu um erro ao enviar o formulário.');
+            });
+        });
+    </script>
+    
       
 @endsection
 @push('styles')

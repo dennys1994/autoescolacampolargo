@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContatoController;
+use App\Http\Controllers\PreMatriculaController;
 
 Route::get('/', function () {
     return view('home');
@@ -11,10 +13,22 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+Route::post('/contato', [ContatoController::class, 'store']);
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+
+    // Rota para lista de formulários de contato
+    Route::get('/contato/lista', [ContatoController::class, 'index'])->name('contato.lista');
+    Route::delete('/contato/{id}', [ContatoController::class, 'destroy'])->name('contato.destroy');
+
+
+    // Rota para lista de pré-matrículas
+    Route::get('/pre-matricula/lista', [PreMatriculaController::class, 'index'])->name('pre-matricula.lista');
+
+
 });
 
 Route::view('/', 'home')->name('home');
