@@ -45,7 +45,7 @@
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center ">
                                                         <div class="icon-container">
-                                                            <i class="fa fa-mobile"></i>
+                                                            <img src="{{asset ('img/icons/mobile.png')}}">
                                                         </div>                                                        
                                                         <p>AULAS TEÓRICAS<br><strong>ONLINE</strong><br><strong>45 AULAS</strong></p>
                                                     </div>
@@ -57,7 +57,7 @@
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center">
                                                         <div class="icon-container">
-                                                            <i class="fa-solid fa-car "></i>
+                                                            <img src="{{asset ('img/icons/car.png')}}">
                                                         </div>
                                                         <p>AULAS PRÁTICAS<br><strong>CARRO</strong><br><strong>20 AULAS</strong></p>
                                                     </div>
@@ -69,7 +69,7 @@
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center">
                                                         <div class="icon-container">
-                                                            <i class="fa-solid fa-motorcycle  me-3"></i>
+                                                            <img src="{{asset ('img/icons/moto.png')}}">
                                                         </div>
                                                         <p>AULAS PRÁTICAS<br><strong>MOTO</strong><br><strong>20 AULAS</strong></p>
                                                     </div>
@@ -113,7 +113,7 @@
                                                 <div class="card text-center" style="visibility:hidden">
                                                     <div class="card-body d-flex align-items-center">
                                                         <div class="icon-container">
-                                                            <i class="fa-solid fa-motorcycle  me-3"></i>
+                                                            <img src="{{asset ('img/icons/moto.png')}}">
                                                         </div>
                                                         <p>AULAS PRÁTICAS<br><strong>MOTO</strong><br><strong>20 AULAS</strong></p>
                                                     </div>
@@ -125,7 +125,7 @@
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center">
                                                         <div class="icon-container">
-                                                            <i class="fa-solid fa-mobile "></i>
+                                                            <img src="{{asset ('img/icons/mobile.png')}}">
                                                         </div>
                                                         <p>AULAS TEÓRICAS<br><strong>ONLINE</strong><br><strong>45 AULAS</strong></p>
                                                     </div>
@@ -137,8 +137,7 @@
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center">
                                                         <div class="icon-container">
-                                                            <i class="fa-solid fa-car "></i>
-                                                        </div>
+                                                            <img src="{{asset ('img/icons/car.png')}}">                                                  </div>
                                                         <p>AULAS PRÁTICAS<br><strong>CARRO</strong><br><strong>20 AULAS</strong></p>
                                                     </div>
                                                 </div>
@@ -183,7 +182,8 @@
                                                 <div class="card text-center" style="visibility: hidden;">
                                                     <div class="card-body d-flex align-items-center">
                                                         <div class="icon-container">
-                                                            <i class="fa-solid fa-car "></i>
+                                                            <img src="{{asset ('img/icons/car.png')}}">
+
                                                         </div>
                                                         <p>AULAS PRÁTICAS<br><strong>CARRO</strong><br><strong>20 AULAS</strong></p>
                                                     </div>
@@ -195,7 +195,7 @@
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center">
                                                         <div class="icon-container">
-                                                            <i class="fa-solid fa-mobile "></i>
+                                                            <img src="{{asset ('img/icons/mobile.png')}}">
                                                         </div>
                                                         <p>AULAS TEÓRICAS<br><strong>ONLINE</strong><br><strong>45 AULAS</strong></p>
                                                     </div>
@@ -209,7 +209,7 @@
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center">
                                                         <div class="icon-container">
-                                                            <i class="fa-solid fa-motorcycle  me-3"></i>
+                                                            <img src="{{asset ('img/icons/moto.png')}}">
                                                         </div>
                                                         <p>AULAS PRÁTICAS<br><strong>MOTO</strong><br><strong>20 AULAS</strong></p>
                                                     </div>

@@ -179,7 +179,7 @@
       
             <!-- Card 3 (Cor #1A2352) -->
             <div class="col-6 col-md-3 mb-4 card-col">
-              <div class="card text-center rounded-0" style="background-color: #1A2352; color: white;">
+              <div class="card text-center rounded-0" style="background-color: #1A2352; color: white; padding-top: 0.7vw;">
                 <div class="card-body">
                   <h5 class="card-title">ALTERAÇÃO OU INCLUSÃO DE CATEGORIA</h5>
                   <a href="{{ route('inclusao_categoria') }}"><button class="btn btn-light rounded-pill">Saiba Mais</button></a>
@@ -189,7 +189,7 @@
       
             <!-- Card 4 (Cor #A40206) -->
             <div class="col-6 col-md-3 mb-4 card-col">
-              <div class="card text-center rounded-0" style="background-color: #A40206; color: white;">
+              <div class="card text-center rounded-0" style="background-color: #A40206; color: white; padding-top: 0.7vw;">
                 <div class="card-body">
                   <h5 class="card-title">AVALIAÇÃO E TREINAMENTO DE MOTORISTAS</h5>
                   <a href="{{ route('treinamento') }}"><button class="btn btn-light rounded-pill">Saiba Mais</button></a>
@@ -378,7 +378,7 @@
         <div class="container pb-5">
             <div class="row justify-content-center">
             <!-- Card Título -->
-            <div class="col-12 col-lg-4 mb-4">
+            <div class="col-12 col-lg-4 mb-4 d-flex justify-content-center align-items-center">
                 <div class="card text-center shadow">
                 <div class="card-body d-flex align-items-center justify-content-center">
                     <h3 class="card-title orcamento-title">Orçamento</h3>

@@ -81,6 +81,11 @@
     padding-right: 5px;
     font-size: 2.5rem;
 }
+#primeirahabilitacao .card img{
+    width: auto;
+    height: 2.5rem;
+    padding-right: 5px;
+}
 #primeirahabilitacao .card p{
     color: #FFFFFF;
     font-family: Grold;
@@ -123,6 +128,10 @@
 }
 
 @media (max-width: 575.98px){
+    #top-tag h2{
+        font-size: 5vw;
+    }
+
     #primeirahabilitacao{
         margin: 0 25px 0 25px;
     }
@@ -167,7 +176,7 @@
     }
 
     #primeirahabilitacao .card-body{
-        padding: 6px;
+        padding: 6px 15px;
     }
 
     .icon-container {

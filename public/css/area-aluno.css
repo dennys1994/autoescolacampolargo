@@ -140,7 +140,7 @@ a{
 @media (max-width: 575.98px){
     #area-aluno button{
         width: 75%;
-        font-size: 18px;
+        font-size: 3vw;
     }
     #area-aluno button .icon-small {
         width: 25px;
@@ -156,7 +156,7 @@ a{
     }
     
     #area-aluno .card-text{
-        font-size: 13px;       
+        font-size: 2.5vw;       
     }
     
     #area-aluno img{

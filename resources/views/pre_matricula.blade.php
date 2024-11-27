@@ -12,7 +12,7 @@
         </div>
     </section>
     <section id="matricula">
-        <div class="container mt-5">
+        <div class="container mt-5 pb-5">
             <div class="row externo">
               <!-- Coluna do Formulário -->
               <div class="col-lg-8 form-bg">
@@ -38,6 +38,7 @@
                   <div class="row mb-3">
                     <div class="col-md-6 custom-padding-left">
                         <select class="form-control" name="categoria" id="categoria" required>
+                            <option value="nao selecionado">Categoria</option>
                             <option value="A">A</option>
                             <option value="B">B</option>
                             <option value="AB">AB</option>
@@ -49,12 +50,12 @@
                     
                       <div class="col-md-6 custom-padding-right">
                           <label for="anexo" class="btn btn-primary w-100 rounded-4 d-none d-md-block">
-                              <i class="fa fa-paperclip fa-2x" aria-hidden="true"></i>
+                              <img src="{{asset ('img/icons/clipboard-lg.png')}}" width="25px" height="25px">
                               Anexo RG/CPF e comprovante de residência
                           </label>
 
                           <label for="anexo" class="btn btn-primary w-100 rounded-4 d-flex justify-content-center align-items-center d-block d-md-none">
-                              <i class="fa fa-paperclip fa-2x" aria-hidden="true"></i>
+                              <img src="{{asset ('img/icons/clipboard-lg.png')}}" width="25px" height="25px">
                               Anexo RG/CPF e comprovante de residência
                           </label>
 
