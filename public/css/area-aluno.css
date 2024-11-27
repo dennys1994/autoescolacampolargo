@@ -13,6 +13,11 @@
     text-decoration-skip-ink: none;
 }
 
+a{
+    text-decoration: none;
+}
+
+
 #area-aluno h1{
     color: #1A2352;
     font-family: Grold;

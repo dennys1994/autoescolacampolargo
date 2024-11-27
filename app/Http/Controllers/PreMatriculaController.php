@@ -59,7 +59,7 @@ class PreMatriculaController extends Controller
         if ($prematricula->anexos) {
             $anexos = json_decode($prematricula->anexos);  // Decodifica a string JSON em um array
             foreach ($anexos as $anexo) {
-                Storage::delete('public/public/uploads/' . $anexo);  // Deletando os arquivos do storage
+                Storage::delete($anexo);  // Deletando os arquivos do storage
             }
         }
         // Deletar o registro da pré-matrícula

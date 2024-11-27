@@ -405,10 +405,23 @@
                             <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
                         </div>
                     </div>
+                    <!-- Serviço Selecionado (Campo Oculto) -->
+                    <input type="hidden" id="servicoSelecionado" name="servico" value="">
                     <!-- Botões -->
                     <div class="d-flex justify-content-between align-items-center mt-4">
-                        <button type="button" class="btn btn-outline-primary">SERVIÇO <i class="fa fa-bars"></i></button>
-                        <button type="submit" class="btn btn-solicitar">Solicitar</button>
+                      <div class="dropdown">
+                        <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            SERVIÇO <i class="fa fa-bars"></i>
+                        </button>
+                        <ul id="servico" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <li><a class="dropdown-item" data-servico="habilitacao">1° Habilitação</a></li>
+                          <li><a class="dropdown-item" data-servico="reciclagem">Reciclagem</a></li>
+                          <li><a class="dropdown-item" data-servico="inclusao_categoria">Inclusão de Categoria</a></li>
+                          <li><a class="dropdown-item" data-servico="avaliacao">Avaliação</a></li>
+                          <li><a class="dropdown-item" data-servico="treinamento_motoristas">Treinamento</a></li>
+                        </ul>
+                      </div>                    
+                      <button type="submit" class="btn btn-solicitar">Solicitar</button>
                     </div>
                 </form>
                 
@@ -473,7 +486,20 @@
             });
         });
     </script>
-    
+    <script>
+      // Captura da seleção do serviço
+      const servicoItems = document.querySelectorAll('#servico .dropdown-item');
+      servicoItems.forEach(item => {
+          item.addEventListener('click', function() {
+              const servico = this.getAttribute('data-servico');
+              document.getElementById('servicoSelecionado').value = servico;
+              // Atualiza o botão para mostrar o serviço selecionado
+              document.querySelector('#dropdownMenuButton').innerHTML = `${this.textContent}`;
+              // Aplica a classe para diminuir o tamanho da fonte
+              document.querySelector('#dropdownMenuButton').classList.add('servico-selecionado');
+          });
+      });
+  </script>
       
 @endsection
 @push('styles')

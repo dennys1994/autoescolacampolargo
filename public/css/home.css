@@ -2,6 +2,10 @@ body, html {
     overflow-x: hidden;
   }
 
+.servico-selecionado {
+    font-size: 16px!important; /* Tamanho da fonte reduzido */
+}
+
 .btn-banner {
     font-size: 30px;
     border-radius: 20.02px;
@@ -206,7 +210,6 @@ section#nossas-vantagens hr.my-3.d-none.d-md-block {
   
   #orcamento form .btn {
     padding: 0.5rem 1rem;
-    font-size: 1rem;
     border-radius: 8px;
   }
 
@@ -228,7 +231,7 @@ section#nossas-vantagens hr.my-3.d-none.d-md-block {
     color: #1A2352;
     border-radius: 25.5px!important;
     font-family: Grold!important;
-    font-size: 29.72px!important;
+    font-size: 29.72px;
     font-weight: 400!important;
     line-height: 25.76px!important;
     letter-spacing: -0.03em!important;
@@ -268,6 +271,17 @@ section#nossas-vantagens hr.my-3.d-none.d-md-block {
     color: #1A2352;
 
   }
+
+  #orcamento .dropdown-menu{
+    background-color: #F1F5FF!important;
+    padding: 20px!important;
+  }
+
+  #orcamento .dropdown-menu li{
+    font-size: 20px;
+  }
+
+ 
 
   @media (max-width: 575.98px) { /* Mobile */
     #nossas-vantagens .card {

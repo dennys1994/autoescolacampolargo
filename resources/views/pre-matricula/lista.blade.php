@@ -29,7 +29,9 @@
                                     <td class="px-6 py-4 border-b border-gray-200">{{ $prematricula->categoria }}</td>
                                     <td class="px-6 py-4 border-b border-gray-200">
                                         @foreach(json_decode($prematricula->anexos) as $anexo)
-                                            <a href="{{ asset('storage/' . $anexo) }}" target="_blank" class="text-blue-600 hover:underline">Ver Anexo</a>
+                                            <a href="{{ asset('storage/' . $anexo) }}" target="_blank" class="text-blue-600 hover:underline" download>
+                                                <i class="fa fa-download"></i> Download do Anexo
+                                            </a>                                        
                                         @endforeach
                                     </td>
                                     <td class="px-6 py-4 border-b border-gray-200">
@@ -48,3 +50,4 @@
         </div>
     </div>
 @endsection
+

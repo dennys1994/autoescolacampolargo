@@ -13,6 +13,7 @@
     text-decoration-skip-ink: none;
 }
 
+
 #matricula h1{
     color: #1A2352;
     font-family: Grold;
@@ -83,6 +84,13 @@
 }
 
 #matricula input{
+    border-radius: 25px;
+    color: #1A235299;
+    opacity: 60%;
+    border: 1px solid #1A2352;
+}
+
+#matricula select{
     border-radius: 25px;
     color: #1A235299;
     opacity: 60%;

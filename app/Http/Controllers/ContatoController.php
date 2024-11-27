@@ -23,6 +23,7 @@ class ContatoController extends Controller
             'nome' => 'required|string|max:255',
             'telefone' => 'required|string|max:15',
             'email' => 'required|email|max:255',
+            'servico' => 'required|string|max:255',
         ]);
 
         // Armazene os dados no banco de dados ou envie para outro serviço
@@ -30,6 +31,7 @@ class ContatoController extends Controller
             'nome' => $request->nome,
             'telefone' => $request->telefone,
             'email' => $request->email,
+            'servico' => $request->servico,
         ]);
 
         // Retorne uma resposta JSON indicando sucesso

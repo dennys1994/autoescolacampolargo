@@ -533,3 +533,28 @@ main {
 .nav-item.dropdown{
     height: 100%;
 }
+
+/* Estilos do ícone flutuante */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px; /* Distância do fundo */
+    right: 20px;  /* Distância da direita */
+    z-index: 9999; /* Garante que o ícone fique por cima de outros elementos */
+    background-color: #25d366; /* Cor do fundo do ícone */
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+/* Efeito de hover no ícone */
+.whatsapp-icon:hover {
+    transform: scale(1.1); /* Aumenta o ícone ao passar o mouse */
+}
+
+/* Estilo da imagem do WhatsApp */
+.whatsapp-icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

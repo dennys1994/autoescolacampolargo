@@ -16,12 +16,12 @@
                 </div>
                 <!-- Botões para as seções -->
                 <div class="mt-6">
-                    <a href="{{ route('contato.lista') }}" class="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-semibold text-sm rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
-                        Ver Lista de Preenchimento do Formulário
+                    <a href="{{ route('contato.lista') }}" class="inline-flex items-center px-2 py-2 bg-blue-600 text-white font-semibold text-sm rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                        Ver Contatos
                     </a>
                 </div>
                 <div class="mt-4">
-                    <a href="{{ route('pre-matricula.lista') }}" class="inline-flex items-center px-4 py-2 bg-green-600 text-white font-semibold text-sm rounded-md shadow-sm hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
+                    <a href="{{ route('pre-matricula.lista') }}" class="inline-flex items-center px-2 py-2 bg-green-600 text-white font-semibold text-sm rounded-md shadow-sm hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
                         Ver Pré-Matrículas
                     </a>
                 </div>

@@ -94,7 +94,11 @@
         @yield('content')
     </main>
 
-    
+    <!-- WhatsApp Icon Floating -->
+    <a href="https://wa.me/5541998073444" target="_blank" class="whatsapp-icon" title="Fale conosco pelo WhatsApp">
+        <img src="{{asset ('img/icons/whatsapp-lg.png')}}" alt="WhatsApp" />
+    </a>
+
     <footer class="custom-footer d-none d-md-block">
         <div class="custom-container">
           <div class="custom-row">

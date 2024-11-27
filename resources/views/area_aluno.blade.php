@@ -18,47 +18,55 @@
                     <div class="row g-3">
                       <!-- Card 1 -->
                       <div class="col-6 col-lg-3">
-                        <div class="card text-white rounded-4 h-100">
-                          <div class="card-body d-flex align-items-center">
-                            <div class="icon-box d-flex justify-content-center align-items-center rounded-circle">
-                                <img src="{{ asset('img/icons/simulado.png') }}" alt="pin" class="icon-small">
-                            </div>
-                            <p class="card-text mb-0"><strong>SIMULADO</strong> DETRAN</p>
+                          <a href="https://www.simulado.detran.pr.gov.br/detran-prova/simularProva.do?action=iniciarProcesso" target="_blank">
+                            <div class="card text-white rounded-4 h-100">
+                              <div class="card-body d-flex align-items-center">
+                                <div class="icon-box d-flex justify-content-center align-items-center rounded-circle">
+                                 <img src="{{ asset('img/icons/simulado.png') }}" alt="pin" class="icon-small">
+                                </div>
+                                <p class="card-text mb-0"><strong>SIMULADO</strong> DETRAN</p>
+                            </div>                          
                           </div>
-                        </div>
+                        </a>
                       </div>
                       <!-- Card 2 -->
                       <div class="col-6 col-lg-3">
-                        <div class="card text-white rounded-4 h-100">
-                          <div class="card-body d-flex align-items-center">
-                            <div class="icon-box d-flex justify-content-center align-items-center rounded-circle">
-                                <img src="{{ asset('img/icons/person.png') }}" alt="pin" class="icon-small">
+                        <a href="https://www.detran.pr.gov.br/servicos/Motorista/1a-Habilitacao/Instalar-o-aplicativo-Primeira-Habilitacao-Detran-PR-WaowMK3D" target="_blank">
+                          <div class="card text-white rounded-4 h-100">
+                            <div class="card-body d-flex align-items-center">
+                              <div class="icon-box d-flex justify-content-center align-items-center rounded-circle">
+                                  <img src="{{ asset('img/icons/person.png') }}" alt="pin" class="icon-small">
+                              </div>
+                              <p class="card-text mb-0"><strong>APP</strong> PRIMEIRA HABILITAÇÃO</p>
                             </div>
-                            <p class="card-text mb-0"><strong>APP</strong> PRIMEIRA HABILITAÇÃO</p>
                           </div>
-                        </div>
+                        </a>
                       </div>
                       <!-- Card 3 -->
                       <div class="col-6 col-lg-3">
-                        <div class="card text-white rounded-4 h-100">
-                          <div class="card-body d-flex align-items-center">
-                            <div class="icon-box d-flex justify-content-center align-items-center rounded-circle">
-                                <img src="{{ asset('img/icons/book.png') }}" alt="pin" class="icon-small">
+                        <a href="" target="_blank">
+                          <div class="card text-white rounded-4 h-100">                          
+                            <div class="card-body d-flex align-items-center">
+                              <div class="icon-box d-flex justify-content-center align-items-center rounded-circle">
+                                  <img src="{{ asset('img/icons/book.png') }}" alt="pin" class="icon-small">
+                              </div>
+                              <p class="card-text mb-0">MATERIAIS <strong>DE APOIO</strong></p>
                             </div>
-                            <p class="card-text mb-0">MATERIAIS <strong>DE APOIO</strong></p>
                           </div>
-                        </div>
+                        </a>
                       </div>
                       <!-- Card 4 -->
                       <div class="col-6 col-lg-3">
-                        <div class="card text-white rounded-4 h-100">
-                          <div class="card-body d-flex align-items-center">
-                            <div class="icon-box d-flex justify-content-center align-items-center rounded-circle">
-                                <img src="{{ asset('img/icons/cnh.png') }}" alt="pin" class="icon-small">
+                        <a href="https://www.detran.pr.gov.br/servicos/consultar-envio-da-cnh" target="_blank">
+                          <div class="card text-white rounded-4 h-100">
+                            <div class="card-body d-flex align-items-center">
+                              <div class="icon-box d-flex justify-content-center align-items-center rounded-circle">
+                                  <img src="{{ asset('img/icons/cnh.png') }}" alt="pin" class="icon-small">
+                              </div>
+                              <p class="card-text mb-0"><strong>RASTREAMENTO</strong> CNH</p>
                             </div>
-                            <p class="card-text mb-0"><strong>RASTREAMENTO</strong> CNH</p>
                           </div>
-                        </div>
+                        </a>
                       </div>                      
                     </div>
                   </div>

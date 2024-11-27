@@ -13,5 +13,6 @@ class Contato extends Model
         'nome',
         'telefone',
         'email',
+        'servico',
     ];
 }
