@@ -120,122 +120,87 @@
             alert('Ocorreu um erro: ' + error.message);
         });
     });
-</script>
 
-<script>
-    const fileInput = document.getElementById('anexo');
+
+document.getElementById('anexo').addEventListener('change', function () {
+    const files = Array.from(this.files); // Obtém os arquivos selecionados
     const progressContainer = document.getElementById('progressContainer');
-    const submitBtn = document.getElementById('submitBtn');
 
-    let selectedFiles = []; // Armazena os arquivos selecionados
-
-    // Adiciona arquivos ao array quando selecionados
-    fileInput.addEventListener('change', () => {
-        const files = Array.from(fileInput.files);
-        if (selectedFiles.length + files.length > 3) {
-            alert('Você pode enviar no máximo 3 arquivos.');
-            return;
-        }
-        selectedFiles = [...selectedFiles, ...files];
-        renderFileList();
-    });
-
-    // Renderiza a lista de arquivos, botões "X" e barras de progresso
-    function renderFileList() {
-        progressContainer.innerHTML = ''; // Limpa os elementos antigos
-        selectedFiles.forEach((file, index) => {
-            const fileWrapper = document.createElement('div');
-            fileWrapper.style.display = 'flex';
-            fileWrapper.style.alignItems = 'center';
-            fileWrapper.style.marginBottom = '10px';
-
-            const fileLabel = document.createElement('small');
-            fileLabel.textContent = `Arquivo ${index + 1}: ${file.name}`;
-            fileLabel.style.flex = '1';
-
-            const progressBar = document.createElement('progress');
-            progressBar.id = `uploadProgress${index}`;
-            progressBar.value = 0;
-            progressBar.max = 100;
-            progressBar.style.flex = '2';
-            progressBar.style.marginRight = '10px';
-
-            const deleteButton = document.createElement('button');
-            deleteButton.textContent = 'X';
-            deleteButton.style.backgroundColor = 'red';
-            deleteButton.style.color = 'white';
-            deleteButton.style.border = 'none';
-            deleteButton.style.borderRadius = '50%';
-            deleteButton.style.width = '25px';
-            deleteButton.style.height = '25px';
-            deleteButton.style.cursor = 'pointer';
-
-            // Evento de clique para remover o arquivo
-            deleteButton.addEventListener('click', () => {
-                selectedFiles.splice(index, 1); // Remove o arquivo do array
-                renderFileList(); // Atualiza a lista de arquivos
-            });
-
-            fileWrapper.appendChild(fileLabel);
-            fileWrapper.appendChild(progressBar);
-            fileWrapper.appendChild(deleteButton);
-            progressContainer.appendChild(fileWrapper);
-        });
+    if (files.length > 3) {
+        alert('Você pode enviar no máximo 3 arquivos.');
+        return;
     }
 
-    // Adiciona evento ao botão de envio
-    submitBtn.addEventListener('click', () => {
-        if (selectedFiles.length === 0) {
-            alert('Selecione pelo menos um arquivo.');
-            return;
-        }
+    progressContainer.innerHTML = ''; // Limpa o progresso anterior
 
-        selectedFiles.forEach((file, index) => {
-            const progressBar = document.getElementById(`uploadProgress${index}`);
-            uploadFile(file, progressBar);
-        });
+    files.forEach((file, index) => {
+        const progressBar = createProgressBar(index, file.name);
+        progressContainer.appendChild(progressBar.wrapper); // Adiciona barra de progresso
+        uploadFile(file, progressBar.bar); // Realiza o upload do arquivo
     });
+});
 
-    // Função de upload real do arquivo
-    function uploadFile(file, progressBar) {
-        const formData = new FormData();
-        formData.append('anexo[]', file);
+// Cria uma barra de progresso com botão de remoção
+function createProgressBar(index, fileName) {
+    const wrapper = document.createElement('div');
+    wrapper.style.display = 'flex';
+    wrapper.style.alignItems = 'center';
+    wrapper.style.marginBottom = '10px';
 
-        const xhr = new XMLHttpRequest();
-        xhr.open('POST', '{{ route("prematricula.store") }}', true);
+    const label = document.createElement('small');
+    label.textContent = `Arquivo ${index + 1}: ${fileName}`;
+    label.style.flex = '1';
 
-        // Configuração do cabeçalho CSRF, se necessário
-        xhr.setRequestHeader('X-CSRF-TOKEN', '{{ csrf_token() }}');
+    const progressBar = document.createElement('progress');
+    progressBar.max = 100;
+    progressBar.style.flex = '2';
+    progressBar.style.marginRight = '10px';
 
-        // Monitora o progresso do upload
-        xhr.upload.onprogress = (event) => {
-            if (event.lengthComputable) {
-                const percentComplete = Math.round((event.loaded / event.total) * 100);
-                progressBar.value = percentComplete; // Atualiza a barra de progresso
-            }
-        };
+    wrapper.appendChild(label);
+    wrapper.appendChild(progressBar);
 
-        // Lida com o término do upload
-        xhr.onload = () => {
-            if (xhr.status === 200) {
-                progressBar.value = 100; // Upload completo
-                alert(`Arquivo ${file.name} enviado com sucesso.`);
-            } else {
-                alert(`Erro ao enviar o arquivo: ${file.name}. Status: ${xhr.status}`);
-            }
-        };
+    return { wrapper, bar: progressBar };
+}
 
-        // Lida com erros de rede
-        xhr.onerror = () => {
-            alert(`Erro de rede ao enviar o arquivo: ${file.name}`);
-        };
+// Realiza o upload do arquivo e atualiza o progresso
+function uploadFile(file, progressBar) {
+    const formData = new FormData();
+    formData.append('anexo[]', file);
 
-        // Envia o arquivo
-        xhr.send(formData);
-    }
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', '{{ route("prematricula.store") }}', true);
 
+    // Adiciona o token CSRF
+    xhr.setRequestHeader('X-CSRF-TOKEN', '{{ csrf_token() }}');
+
+    // Atualiza o progresso do upload
+    xhr.upload.onprogress = (event) => {
+        if (event.lengthComputable) {
+            const percentComplete = Math.round((event.loaded / event.total) * 100);
+            progressBar.value = percentComplete;
+        }
+    };
+
+    // Lida com o término do upload
+    xhr.onload = () => {
+        if (xhr.status === 200) {
+            progressBar.value = 100; // Upload concluído
+            alert(`Arquivo ${file.name} enviado com sucesso.`);
+        } else {
+            alert(`Erro ao enviar o arquivo ${file.name}. Código: ${xhr.status}`);
+        }
+    };
+
+    // Lida com erros de rede
+    xhr.onerror = () => {
+        alert(`Erro de rede ao enviar o arquivo ${file.name}.`);
+    };
+
+    // Envia o arquivo
+    xhr.send(formData);
+}
 </script>
-      
+
 @endsection
 @push('styles')
     <link href="{{ asset('css/matricula.css') }}" rel="stylesheet">
