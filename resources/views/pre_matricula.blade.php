@@ -185,7 +185,6 @@ function uploadFile(file, progressBar) {
     xhr.onload = () => {
         if (xhr.status === 200) {
             progressBar.value = 100; // Upload concluído
-            alert(`Arquivo ${file.name} enviado com sucesso.`);
         } else {
             alert(`Erro ao enviar o arquivo ${file.name}. Código: ${xhr.status}`);
         }
