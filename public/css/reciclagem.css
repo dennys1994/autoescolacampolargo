@@ -5,7 +5,7 @@
     padding: 75px 30px 10px; /* Ajuste o padding conforme necessário */
     border-radius: 25px; /* Bordas arredondadas */
     font-family: Grold;
-    font-size: 47.59px;
+    font-size: 3vw;
     font-weight: 400;
     line-height: 41.25px;
     text-align: center;
@@ -16,7 +16,7 @@
 #reciclagem h1{
     color: #1A2352;
     font-family: Grold;
-    font-size: 36px;
+    font-size: 2.8vw;
     font-weight: 400;
     line-height: 25.06px;
     text-align: left;
@@ -27,7 +27,7 @@
 #reciclagem p{
     color: #1A2352;
     font-family: Grold;
-    font-size: 25.99px;
+    font-size: 2vw;
     font-weight: 400;
     line-height: 25.06px;
     text-align: left;
@@ -48,7 +48,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin: 24px auto;
-    font-size: 40px;
+    font-size: 2.5vw;
     width: 33%;
     padding: 15px;
 }
@@ -60,9 +60,10 @@
     min-height: 100px;
 }
 
-#reciclagem .card p{
+#reciclagem .card-body p{
     padding-left: 20px;
     color: #FFFFFF;
+    font-size: 1.8vw;
 }
 
 #reciclagem img{
@@ -122,7 +123,7 @@
     }
     
     #reciclagem p{
-        font-size: 13px;       
+        font-size: 15px;       
     }
     
     #reciclagem img{
@@ -136,5 +137,9 @@
 
     #reciclagem .col-md-5{
         margin-top: 8px;
+    }
+
+    #reciclagem .card-body p{
+        font-size: 3vw;
     }
 }

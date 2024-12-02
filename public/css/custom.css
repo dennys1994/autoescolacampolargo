@@ -61,29 +61,6 @@ main {
     margin-bottom: 12px;
 }
 
-.navbar-nav .nav-item .dropdown-toggle::after {
-    display: none;
-}
-
-.nav-item .dropdown-toggle img {
-    position: absolute;
-    bottom: -8px;
-    width: 12px;
-    /* Ajuste o tamanho da imagem da flecha */
-    height: auto;
-    /* Manter a proporção da imagem */
-    left: 60%;
-    transform: translateX(-60%);
-    /* Centraliza horizontalmente */
-    transition: transform 0.3s ease;
-    z-index: 1000;
-}
-
-.nav-item .dropdown-toggle:hover img {
-    transform: rotate(180deg);
-    /* Rotaciona a flecha para indicar que o submenu está aberto */
-    z-index: 1000;
-}
 
 @media (min-width: 991px) {
     .nav-item.dropdown:hover .dropdown-menu {
@@ -119,7 +96,6 @@ main {
 .navbar-nav .nav-link,
 .navbar-nav .nav-item .dropdown-item {
     text-transform: uppercase;
-    font-size: 1.25rem;
     border-radius: 50px 50px 50px 50px;
 }
 
@@ -194,7 +170,7 @@ main {
 .navbar-nav .nav-link,
 .navbar-nav .nav-item .dropdown-item {
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1vw;
     /* 1.25rem = 20px se a font-size base do HTML for 16px */
 }
 
@@ -330,7 +306,7 @@ main {
 }
 
 .custom-adress {
-    font-size: 1.19vw;
+    font-size: 1.13vw;
     margin-left: 20%;
     margin-top: 20px;
     

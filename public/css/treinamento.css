@@ -5,7 +5,7 @@
     padding: 75px 30px 10px; /* Ajuste o padding conforme necessário */
     border-radius: 25px; /* Bordas arredondadas */
     font-family: Grold;
-    font-size: 47.59px;
+    font-size: 2.3vw;
     font-weight: 400;
     line-height: 41.25px;
     text-align: center;
@@ -27,12 +27,13 @@
 #treinamento p{
     color: #1A2352;
     font-family: Grold;
-    font-size: 25.99px;
+    font-size: 2.2vw;
     font-weight: 400;
     line-height: 25.06px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    text-align: justify;
 }
 
 
@@ -48,7 +49,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin: 24px auto;
-    font-size: 40px;
+    font-size: 2.5vw;
     width: 33%;
     padding: 15px;
 }

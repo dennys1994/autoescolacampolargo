@@ -46,8 +46,7 @@
                         <!-- Link A Escola com Dropdown -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-white" href="#" id="escolaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                A Escola
-                                <img src="{{ asset('img/arrow.png') }}" alt="Drop menu">
+                                A Escola                               
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="escolaDropdown">
                                 <li><a class="dropdown-item text-white" href="{{ route('a_escola') }}">Conheça a Escola</a></li>
@@ -58,8 +57,7 @@
                         <!-- Link Nossos Cursos com Dropdown -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-white" href="#" id="cursosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Nossos Cursos
-                                <img src="{{ asset('img/arrow.png') }}" alt="Drop menu">
+                                Nossos Cursos                               
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="cursosDropdown">
                                 <li><a class="dropdown-item text-white" href="{{ route('primeira_habilitacao') }}">1ª Habilitação</a></li>

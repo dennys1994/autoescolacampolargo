@@ -5,7 +5,7 @@
     padding: 75px 30px 10px; /* Ajuste o padding conforme necessário */
     border-radius: 25px; /* Bordas arredondadas */
     font-family: Grold;
-    font-size: 47.59px;
+    font-size: 2.5vw;
     font-weight: 400;
     line-height: 41.25px;
     text-align: center;
@@ -21,7 +21,7 @@ a{
 #area-aluno h1{
     color: #1A2352;
     font-family: Grold;
-    font-size: 36px;
+    font-size: 2vw;
     font-weight: 400;
     line-height: 25.06px;
     text-align: left;
@@ -32,7 +32,7 @@ a{
 #area-aluno p{
     color: #1A2352;
     font-family: Grold;
-    font-size: 25.99px;
+    font-size: 1.6vw;
     font-weight: 400;
     line-height: 25.06px;
     text-align: left;
@@ -45,7 +45,7 @@ a{
     background-color: #890004!important;
     color: #FFFFFF;
     font-family: Grold;
-    font-size: 38px;
+    font-size: 2vw;
     font-weight: 400;
     line-height: 36.63px;
     text-align: center;

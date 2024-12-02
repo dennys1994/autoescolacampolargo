@@ -29,7 +29,7 @@
                             <div class="col-12">
                                 <div class="container">            
                                     <div class="row">
-                                        <div class="col-6 col-md-4">
+                                        <div class="col-12 col-md-4">
                                             <div class="card text-center">
                                                 <div class="card-body d-flex align-items-center">
                                                     <i><img src="{{asset ('img/icons/exame.png')}}" alt="" srcset=""></i>
@@ -39,7 +39,7 @@
                                         </div>
 
                                         <!-- Card 2 -->
-                                        <div class="col-6 col-md-3">
+                                        <div class="col-12 col-md-3">
                                             <div class="card text-center">
                                                 <div class="card-body d-flex align-items-center">
                                                     <i><img src="{{asset ('img/icons/clock.png')}}" alt="" srcset=""></i>
