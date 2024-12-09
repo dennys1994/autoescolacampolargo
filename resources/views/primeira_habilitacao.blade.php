@@ -6,7 +6,7 @@
     <!-- Titulo da pagina-->
     <section id="top-tag">
         <div class="container">
-            <div class="text-center mb-4 pb-1">
+            <div class="text-center mb-4">
                 <h2 class="d-inline-block text-white ">1° <strong>HABILITAÇÃO</strong></h2>
             </div>
         </div>
@@ -28,7 +28,7 @@
                         <div class="col-12 card-aula" style="background: #fff">
                             <div class="row">
                                 <div class="col-4">
-                                    <h1>CARRO & MOTO</h1>
+                                    <h1>CARRO<br>&&nbspMOTO</h1>
                                 </div>
                                 <div class="col-8 mb-5">
                                     <p>
@@ -37,11 +37,11 @@
                                     </p>
                                 </div>                                
                                 <hr>
-                                <div class="conteudo col-12">   
+                                <div class="conteudo">   
                                     <div class="container-fluid">
-                                        <div class="row d-flex justify-content-center  ju"> 
+                                        <div class="row d-flex justify-content-center"> 
                                             <!-- Card 1: Aulas Teóricas Online -->
-                                            <div class="col-12 col-md-2 ">
+                                            <div class="col-12 col-md">
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center ">
                                                         <div class="icon-container">
@@ -53,7 +53,7 @@
                                             </div>
                                 
                                             <!-- Card 2: Aulas Práticas Carro -->
-                                            <div class="col-12 col-md-2">
+                                            <div class="col-12 col-md">
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center">
                                                         <div class="icon-container">
@@ -65,7 +65,7 @@
                                             </div>
                                 
                                             <!-- Card 3: Aulas Práticas Moto -->
-                                            <div class="col-12 col-md-2">
+                                            <div class="col-12 col-md">
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center">
                                                         <div class="icon-container">
@@ -78,7 +78,7 @@
                                             
                                 
                                             <!-- Card 4: Documentos Necessários -->
-                                            <div class="col-12 col-md-4">
+                                            <div class="col-12 col-md flex-grow-2">
                                                 <div class="card text-white" style="background: #890004;">
                                                     <div class="card-body d-flex align-items-center">
                                                         <div class="icon-container">
@@ -107,21 +107,9 @@
                                 <hr>
                                 <div class="conteudo col-12">   
                                     <div class="container-fluid">
-                                        <div class="row d-flex justify-content-center"> 
-                                            <!-- Card 3: Aulas Práticas Moto -->
-                                            <div class="col-12 col-md-2 d-none d-sm-bloc">
-                                                <div class="card text-center" style="visibility:hidden">
-                                                    <div class="card-body d-flex align-items-center">
-                                                        <div class="icon-container">
-                                                            <img src="{{asset ('img/icons/moto.png')}}">
-                                                        </div>
-                                                        <p>AULAS PRÁTICAS<br><strong>MOTO</strong><br><strong>20 AULAS</strong></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
+                                        <div class="row d-flex justify-content-center">                                    
                                             <!-- Card 1: Aulas Teóricas Online -->
-                                            <div class="col-12 col-md-2">
+                                            <div class="col-12 col-md-3">
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center">
                                                         <div class="icon-container">
@@ -133,7 +121,7 @@
                                             </div>
                                 
                                             <!-- Card 2: Aulas Práticas Carro -->
-                                            <div class="col-12 col-md-2">
+                                            <div class="col-12 col-md-3">
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center">
                                                         <div class="icon-container">
@@ -176,22 +164,10 @@
                                 <hr>
                                 <div class="conteudo col-12">   
                                     <div class="container-fluid">
-                                        <div class="row d-flex justify-content-center">
-                                            <!-- Card 2: Aulas Práticas Carro -->
-                                            <div class="col-12 col-md-2 d-none d-sm-bloc">
-                                                <div class="card text-center" style="visibility: hidden;">
-                                                    <div class="card-body d-flex align-items-center">
-                                                        <div class="icon-container">
-                                                            <img src="{{asset ('img/icons/car.png')}}">
-
-                                                        </div>
-                                                        <p>AULAS PRÁTICAS<br><strong>CARRO</strong><br><strong>20 AULAS</strong></p>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="row d-flex justify-content-center">                                
                                             
                                             <!-- Card 1: Aulas Teóricas Online -->
-                                            <div class="col-12 col-md-2">
+                                            <div class="col-12 col-md-3">
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center">
                                                         <div class="icon-container">
@@ -205,7 +181,7 @@
                                             
                                 
                                             <!-- Card 3: Aulas Práticas Moto -->
-                                            <div class="col-12 col-md-2">
+                                            <div class="col-12 col-md-3">
                                                 <div class="card text-center">
                                                     <div class="card-body d-flex align-items-center">
                                                         <div class="icon-container">
@@ -235,7 +211,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="{{route ("pre_matricula")}}"class="btn">Faça sua <strong>Matrícula</strong></a>
+                <a href="{{route ("pre_matricula")}}"class="btn">Faça sua <strong>matrícula</strong></a>
             </div>
         </div>
     </section>

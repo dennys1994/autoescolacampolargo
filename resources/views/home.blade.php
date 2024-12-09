@@ -21,9 +21,9 @@
     
     <section id="nossas-vantagens">
         <div class="container">
-            <div class="text-center mb-4">
-                <h2 class="d-inline-block text-white">Nossas <strong>Vantagens</strong></h2>
-              </div>
+            <div class="text-center mb-4 title">
+                <h2 class="d-inline-block text-white">NOSSAS <strong>VANTAGENS</strong></h2>
+            </div>
           <div class="row">
             <!-- Card 1 -->
             <div class="col-6 col-md-4 mb-2 p-1">
@@ -36,7 +36,7 @@
                       <i class="fas fa-chevron-down d-md-none"></i>
                     </button>                    
                   </div>
-                  <hr class="my-3 d-none d-md-block">
+                  <hr class="my-2 d-none d-md-block">
                   <p class="card-text d-none d-md-block">Aulas remotas oferecem flexibilidade e praticidade para estudar a teoria do trânsito e se preparar para a prova.</p>
                   <div class="d-md-none">
                     <p class="card-text full-text d-none">Aulas remotas oferecem flexibilidade e praticidade para estudar a teoria do trânsito e se preparar para a prova.</p>
@@ -56,7 +56,7 @@
                       <i class="fas fa-chevron-down d-md-none"></i>
                     </button>
                   </div>
-                  <hr class="my-3 d-none d-md-block">
+                  <hr class="my-2 d-none d-md-block">
                   <p class="card-text d-none d-md-block">Ao se matricular, você pode começar as aulas de imediato, no horário que preferir.</p>
                   <div class="d-md-none">
                     <p class="card-text full-text d-none">Ao se matricular, você pode começar as aulas de imediato, no horário que preferir.</p>
@@ -76,7 +76,7 @@
                       <i class="fas fa-chevron-down d-md-none"></i>
                     </button>
                   </div>
-                  <hr class="my-3 d-none d-md-block">
+                  <hr class="my-2 d-none d-md-block">
                   <p class="card-text d-none d-md-block">Todas as aulas têm legendas automáticas, garantindo acessibilidade.</p>
                   <div class="d-md-none">
                     <p class="card-text full-text d-none">Todas as aulas têm legendas automáticas, garantindo acessibilidade.</p>
@@ -96,7 +96,7 @@
                         <i class="fas fa-chevron-down d-md-none"></i>
                       </button>
                     </div>
-                    <hr class="my-3 d-none d-md-block">
+                    <hr class="my-2 d-none d-md-block">
                     <p class="card-text d-none d-md-block">Oferecemos turmas de manhã, tarde, noite e aos sábados para sua conveniência. Escolha o melhor horário!</p>
                     <div class="d-md-none">
                       <p class="card-text full-text d-none">Oferecemos turmas de manhã, tarde, noite e aos sábados para sua conveniência. Escolha o melhor horário!</p>
@@ -116,7 +116,7 @@
                         <i class="fas fa-chevron-down d-md-none"></i>
                       </button>
                     </div>
-                    <hr class="my-3 d-none d-md-block">
+                    <hr class="my-2 d-none d-md-block">
                     <p class="card-text d-none d-md-block">Instrutores experientes e qualificados, prontos para guiar você em cada etapa do aprendizado.</p>
                     <div class="d-md-none">
                       <p class="card-text full-text d-none">Instrutores experientes e qualificados, prontos para guiar você em cada etapa do aprendizado.</p>
@@ -136,7 +136,7 @@
                         <i class="fas fa-chevron-down d-md-none"></i>
                       </button>
                     </div>
-                    <hr class="my-3 d-none d-md-block">
+                    <hr class="my-2 d-none d-md-block">
                     <p class="card-text d-none d-md-block">Nossa frota tem veículos novos, com direção hidráulica e ar-condicionado, garantindo conforto e segurança nas aulas práticas.</p>
                     <div class="d-md-none">
                       <p class="card-text full-text d-none">Nossa frota tem veículos novos, com direção hidráulica e ar-condicionado, garantindo conforto e segurança nas aulas práticas.</p>
@@ -152,7 +152,7 @@
         <div class="container">
           <!-- Título -->
           <h2 class="text-center text-white" style="background-color: #1A2352; padding: 15px 0;">
-            Faça sua matrícula <strong>matricula</strong>
+            Faça sua <strong>matrícula</strong>
           </h2>
       
           <!-- Cards -->
@@ -279,7 +279,7 @@
                     <h5 class="card-title">Leonardo Victor</h5>
                     <!-- Conteúdo da avaliação -->
                     <p class="card-text">                        
-                        A Autoescola Campo Largo se destaca pelo método de baliza simples e eficiente, com apenas três passos. Os instrutores explicam muito bem, e a pista de treinamento é excelente, com estrutura completa, incluindo capa de chuva, capacete e até cafezinho. Localizada próxima ao CIRETRAN, permite treinar no mesmo percurso do exame, facilitando a aprovação. O atendimento é rápido e eficiente, resolvendo questões do processo na hora. Altamente recomendada!
+                       <strong> A Autoescola Campo Largo se destaca pelo método de baliza simples e eficiente, com apenas três passos. Os instrutores explicam muito bem, e a pista de treinamento é excelente, com estrutura completa, incluindo capa de chuva, capacete e até cafezinho. Localizada próxima ao CIRETRAN, permite treinar no mesmo percurso do exame, facilitando a aprovação. O atendimento é rápido e eficiente, resolvendo questões do processo na hora. Altamente recomendada!</strong>
                     </p>
                   </div>
                 </div>
@@ -373,12 +373,12 @@
         </div>
       </section>
       
-    <hr class="m-5">
+    <hr>
     <section id="orcamento">
         <div class="container pb-5">
             <div class="row justify-content-center">
             <!-- Card Título -->
-            <div class="col-12 col-lg-4 mb-4 d-flex justify-content-center align-items-center">
+            <div class="col-12 col-lg-4 mb-4 justify-content-center align-items-center">
                 <div class="card text-center shadow">
                 <div class="card-body d-flex align-items-center justify-content-center">
                     <h3 class="card-title orcamento-title">Orçamento</h3>
@@ -411,7 +411,7 @@
                     <div class="d-flex justify-content-between align-items-center mt-4">
                       <div class="dropdown">
                         <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                            SERVIÇO <i class="fa fa-bars"></i>
+                            <strong>SERVIÇO</strong>
                         </button>
                         <ul id="servico" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                           <li><a class="dropdown-item" data-servico="habilitacao">1° Habilitação</a></li>

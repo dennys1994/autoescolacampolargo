@@ -6,17 +6,44 @@ body, html {
   font-size: 16px!important; /* Tamanho da fonte reduzido */
 }
 
+.container{
+  max-width: 90%;
+}
 .btn-banner {
   font-size: 30px;
   border-radius: 20.02px;
   background: #F1F5FF;
   color: #1A1A4F;
   padding: 0 12px;
+  font-weight: 300;
+}
+
+.btn-banner strong{
+  font-weight: 700;
 }
 
 .btn-banner:hover {
   background: #1A1A4F;
   color: #F1F5FF;
+}
+
+#nossas-vantagens h2 {
+  margin-top: -50px; /* Ajuste para que o título fique mais perto do banner */
+  background-color: #890004; /* Personalize a cor de fundo */
+  color: white; /* Cor do texto */
+  padding: 75px 30px 15px; /* Ajuste o padding conforme necessário */
+  border-radius: 25px; /* Bordas arredondadas */
+  font-family: Grold;
+  font-size: 3vw;
+  font-weight: 300;
+  line-height: 41.25px;
+  text-align: center;
+  text-underline-position: from-font;
+  margin-bottom: 50px;
+}
+
+#nossas-vantagens h2 strong{
+  font-weight: 700;
 }
 
 #nossas-vantagens .card {
@@ -25,22 +52,23 @@ body, html {
   text-align: left;
   color: #1A2352;
   border-radius: 27.85px;
+  padding: 12.5px 25px;
 }
 
 #nossas-vantagens .card-title {
-font-family: Grold;
-font-size: 1.6vw;
-font-weight: 400;
-line-height: 30.47px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+  font-family: Grold;
+  font-size: 1.8vw;
+  font-weight: 500;
+  line-height: 30.47px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 
 #nossas-vantagens .card-text {
   font-family: Grold;
-  font-size: 25.99px;
-  font-weight: 400;
+  font-size: 1.65vw;
+  font-weight: 300;
   line-height: 25.06px;
   text-align: left;
   text-underline-position: from-font;
@@ -58,26 +86,13 @@ text-decoration-skip-ink: none;
 }
 
 #nossas-vantagens .card {
-  min-height: 250px; /* Ajuste o valor conforme necessário */
+  min-height: 230px; /* Ajuste o valor conforme necessário */
 }
 
-#nossas-vantagens h2 {
-  margin-top: -50px; /* Ajuste para que o título fique mais perto do banner */
-  background-color: #890004; /* Personalize a cor de fundo */
-  color: white; /* Cor do texto */
-  padding: 75px 30px 0px; /* Ajuste o padding conforme necessário */
-  border-radius: 25px; /* Bordas arredondadas */
-  font-family: Grold;
-  font-size: 47.59px;
-  font-weight: 400;
-  line-height: 41.25px;
-  text-align: center;
-  text-underline-position: from-font;
-}
-
-section#nossas-vantagens hr.my-3.d-none.d-md-block {
-  border-top: 1.39px solid #1A2352!important; /* Define a espessura da linha */
+section#nossas-vantagens hr{
+  border-top: 2px solid #1A2352!important; /* Define a espessura da linha */
   opacity: 1;
+  margin: 0;
 }
 
 #faca-matricula .container{
@@ -89,8 +104,14 @@ section#nossas-vantagens hr.my-3.d-none.d-md-block {
 #faca-matricula h2 {
   background-color: #1A2352; /* Cor do fundo */
   color: white; /* Cor do texto */
+  font-weight: 300;
   padding: 15px 0;
   margin-bottom: 0;
+  font-size: 3vw;
+}
+
+#faca-matricula h2 strong {
+  font-weight: 700;
 }
 
 #faca-matricula .card-col{
@@ -99,8 +120,8 @@ section#nossas-vantagens hr.my-3.d-none.d-md-block {
 
 #faca-matricula .card-body .card-title {
   font-family: Grold;
-  font-size: 1.5vw;
-  font-weight: 400;
+  font-size: 1.75vw;
+  font-weight: 600;
   line-height: 26px;
   text-align: center;
   text-underline-position: from-font;
@@ -118,6 +139,7 @@ section#nossas-vantagens hr.my-3.d-none.d-md-block {
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  color: #1A2352;
 }
 
 #faca-matricula .card{
@@ -136,25 +158,29 @@ section#nossas-vantagens hr.my-3.d-none.d-md-block {
 }
 
 #avaliacao-google .container{
-  max-width: 100%;
+  max-width: 90%;
 }
 #avaliacao-google h2{
   color: #1A2352;
   font-family: Grold;
   font-size: 54.2px;
-  font-weight: 400;
+  font-weight: 350;
   line-height: 46.97px;
   letter-spacing: -0.04em;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
+#avaliacao-google h2 strong{
+  font-weight: 700;
+}
 
 #avaliacao-google .card {
   border-radius: 10px;
   border: none;
   overflow: hidden;
-  height: 400px;
+  height: 450px;
+  padding: 30px;
 }
 
 #avaliacao-google .stars i {
@@ -166,9 +192,10 @@ section#nossas-vantagens hr.my-3.d-none.d-md-block {
 }
 
 #avaliacao-google .card-title{
+  color: #1A2352;
   font-family: Grold;
   font-size: 2vw;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 29.98px;
   letter-spacing: -0.04em;
   text-align: left;
@@ -178,18 +205,19 @@ section#nossas-vantagens hr.my-3.d-none.d-md-block {
 
 #avaliacao-google .card-text {
   color: #1A2352;
-  font-family: Grold;
+  font-family: 'Grold';
   font-size: 1.5vw;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 29.98px;
-  letter-spacing: -0.04em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  text-align: justify;
 }
 
 #avaliacao-google .card-body .stars {
   margin-bottom: 10px;
+}
+
+#orcamento .container{
+  max-height: 95%;
 }
 
 #orcamento .card {
@@ -223,6 +251,7 @@ section#nossas-vantagens hr.my-3.d-none.d-md-block {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  border-color: #1A1A4F;
 
 }
 
@@ -231,7 +260,7 @@ section#nossas-vantagens hr.my-3.d-none.d-md-block {
   color: #1A2352;
   border-radius: 25.5px!important;
   font-family: Grold!important;
-  font-size: 29.72px;
+  font-size: 1.7vw;
   font-weight: 400!important;
   line-height: 25.76px!important;
   letter-spacing: -0.03em!important;
@@ -263,7 +292,7 @@ section#nossas-vantagens hr.my-3.d-none.d-md-block {
   padding-top: auto;
   font-family: Grold;
   font-size: 48.76px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 42.26px;
   text-align: center;
   text-underline-position: from-font;
@@ -281,7 +310,11 @@ section#nossas-vantagens hr.my-3.d-none.d-md-block {
   font-size: 20px;
 }
 
-
+hr{
+  border: 1.5px solid #1A2352!important; /* Define a espessura da linha */
+  opacity: 1;
+  margin: 40px 12%;
+}
 
 @media (max-width: 575.98px) { /* Mobile */
   #nossas-vantagens .card {
@@ -412,7 +445,8 @@ body {
  }   
  
  #orcamento .btn-outline-primary{
-     font-size: 4.5vw;
+     font-size: 3.5vw!important;
+     font-weight: 900!important;
  }
  
  #orcamento .orcamento-title{

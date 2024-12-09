@@ -5,16 +5,246 @@
     --white: #fff;
 }
 
-
-
+@font-face {
+    font-family: 'Grold Extra';
+    src: url('../fonts/font/Grold-ExtraLight.eot');
+    src: local('Grold Extra Light'), local('../fonts/font/Grold-ExtraLight'),
+        url('../fonts/font/Grold-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-ExtraLight.woff2') format('woff2'),
+        url('../fonts/font/Grold-ExtraLight.woff') format('woff'),
+        url('../fonts/font/Grold-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'Grold';
+    src: url('../fonts/font/Grold-BoldItalic.eot');
+    src: local('Grold Bold Italic'), local('../fonts/font/Grold-BoldItalic'),
+        url('../fonts/font/Grold-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-BoldItalic.woff2') format('woff2'),
+        url('../fonts/font/Grold-BoldItalic.woff') format('woff'),
+        url('../fonts/font/Grold-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Grold';
+    src: url('../fonts/font/Grold-BlackItalic.eot');
+    src: local('Grold Black Italic'), local('../fonts/font/Grold-BlackItalic'),
+        url('../fonts/font/Grold-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-BlackItalic.woff2') format('woff2'),
+        url('../fonts/font/Grold-BlackItalic.woff') format('woff'),
+        url('../fonts/font/Grold-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Grold';
+    src: url('../fonts/font/Grold-Bold.eot');
+    src: local('Grold Bold'), local('../fonts/font/Grold-Bold'),
+        url('../fonts/font/Grold-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-Bold.woff2') format('woff2'),
+        url('../fonts/font/Grold-Bold.woff') format('woff'),
+        url('../fonts/font/Grold-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Grold';
+    src: url('../fonts/font/Grold-Black.eot');
+    src: local('Grold Black'), local('../fonts/font/Grold-Black'),
+        url('../fonts/font/Grold-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-Black.woff2') format('woff2'),
+        url('../fonts/font/Grold-Black.woff') format('woff'),
+        url('../fonts/font/Grold-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Grold Extra';
+    src: url('../fonts/font/Grold-ExtraLightItalic.eot');
+    src: local('Grold Extra Light Italic'), local('../fonts/font/Grold-ExtraLightItalic'),
+        url('../fonts/font/Grold-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/font/Grold-ExtraLightItalic.woff') format('woff'),
+        url('../fonts/font/Grold-ExtraLightItalic.ttf') format('truetype');
     font-weight: 200;
-    src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('opentype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Grold';
+    src: url('../fonts/font/Grold-ExtraBold.eot');
+    src: local('Grold ExtraBold'), local('../fonts/font/Grold-ExtraBold'),
+        url('../fonts/font/Grold-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-ExtraBold.woff2') format('woff2'),
+        url('../fonts/font/Grold-ExtraBold.woff') format('woff'),
+        url('../fonts/font/Grold-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Grold SemiLight';
+    src: url('../fonts/font/Grold-SemiLight.eot');
+    src: local('Grold SemiLight'), local('../fonts/font/Grold-SemiLight'),
+        url('../fonts/font/Grold-SemiLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-SemiLight.woff2') format('woff2'),
+        url('../fonts/font/Grold-SemiLight.woff') format('woff'),
+        url('../fonts/font/Grold-SemiLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Grold';
+    src: url('../fonts/font/Grold-MediumItalic.eot');
+    src: local('Grold Medium Italic'), local('../fonts/font/Grold-MediumItalic'),
+        url('../fonts/font/Grold-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-MediumItalic.woff2') format('woff2'),
+        url('../fonts/font/Grold-MediumItalic.woff') format('woff'),
+        url('../fonts/font/Grold-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Grold';
+    src: url('../fonts/font/Grold-Light.eot');
+    src: local('Grold Light'), local('../fonts/font/Grold-Light'),
+        url('../fonts/font/Grold-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-Light.woff2') format('woff2'),
+        url('../fonts/font/Grold-Light.woff') format('woff'),
+        url('../fonts/font/Grold-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Grold';
+    src: url('../fonts/font/Grold-Thin.eot');
+    src: local('Grold Thin'), local('../fonts/font/Grold-Thin'),
+        url('../fonts/font/Grold-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-Thin.woff2') format('woff2'),
+        url('../fonts/font/Grold-Thin.woff') format('woff'),
+        url('../fonts/font/Grold-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Grold';
+    src: url('../fonts/font/Grold-Medium.eot');
+    src: local('Grold Medium'), local('../fonts/font/Grold-Medium'),
+        url('../fonts/font/Grold-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-Medium.woff2') format('woff2'),
+        url('../fonts/font/Grold-Medium.woff') format('woff'),
+        url('../fonts/font/Grold-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Grold';
+    src: url('../fonts/font/Grold-Italic.eot');
+    src: local('Grold Italic'), local('../fonts/font/Grold-Italic'),
+        url('../fonts/font/Grold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-Italic.woff2') format('woff2'),
+        url('../fonts/font/Grold-Italic.woff') format('woff'),
+        url('../fonts/font/Grold-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Grold';
+    src: url('../fonts/font/Grold-Regular.eot');
+    src: local('Grold'), local('../fonts/font/Grold-Regular'),
+        url('../fonts/font/Grold-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-Regular.woff2') format('woff2'),
+        url('../fonts/font/Grold-Regular.woff') format('woff'),
+        url('../fonts/font/Grold-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Grold';
+    src: url('../fonts/font/Grold-ExtraBoldItalic.eot');
+    src: local('Grold ExtraBold Italic'), local('../fonts/font/Grold-ExtraBoldItalic'),
+        url('../fonts/font/Grold-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/font/Grold-ExtraBoldItalic.woff') format('woff'),
+        url('../fonts/font/Grold-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Grold';
+    src: url('../fonts/font/Grold-ThinItalic.eot');
+    src: local('Grold Thin Italic'), local('../fonts/font/Grold-ThinItalic'),
+        url('../fonts/font/Grold-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-ThinItalic.woff2') format('woff2'),
+        url('../fonts/font/Grold-ThinItalic.woff') format('woff'),
+        url('../fonts/font/Grold-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Grold';
+    src: url('../fonts/font/Grold-LightItalic.eot');
+    src: local('Grold Light Italic'), local('../fonts/font/Grold-LightItalic'),
+        url('../fonts/font/Grold-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-LightItalic.woff2') format('woff2'),
+        url('../fonts/font/Grold-LightItalic.woff') format('woff'),
+        url('../fonts/font/Grold-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Grold ExtraBlack';
+    src: url('../fonts/font/Grold-ExtraBlackItalic.eot');
+    src: local('Grold ExtraBlack Italic'), local('../fonts/font/Grold-ExtraBlackItalic'),
+        url('../fonts/font/Grold-ExtraBlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-ExtraBlackItalic.woff2') format('woff2'),
+        url('../fonts/font/Grold-ExtraBlackItalic.woff') format('woff'),
+        url('../fonts/font/Grold-ExtraBlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Grold ExtraBlack';
+    src: url('../fonts/font/Grold-ExtraBlack.eot');
+    src: local('Grold ExtraBlack'), local('../fonts/font/Grold-ExtraBlack'),
+        url('../fonts/font/Grold-ExtraBlack.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-ExtraBlack.woff2') format('woff2'),
+        url('../fonts/font/Grold-ExtraBlack.woff') format('woff'),
+        url('../fonts/font/Grold-ExtraBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Grold SemiLight';
+    src: url('../fonts/font/Grold-SemiLightItalic.eot');
+    src: local('Grold SemiLight Italic'), local('../fonts/font/Grold-SemiLightItalic'),
+        url('../fonts/font/Grold-SemiLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/Grold-SemiLightItalic.woff2') format('woff2'),
+        url('../fonts/font/Grold-SemiLightItalic.woff') format('woff'),
+        url('../fonts/font/Grold-SemiLightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
 
 
 
@@ -44,6 +274,7 @@ main {
 .navbar-custom {
     background-color: var(--primary-color) !important;
     height: 104px;
+    font-weight: 500;
     /* Altura do menu */
 }
 
@@ -170,7 +401,7 @@ main {
 .navbar-nav .nav-link,
 .navbar-nav .nav-item .dropdown-item {
     text-transform: uppercase;
-    font-size: 1vw;
+    font-size: 1.25vw;
     /* 1.25rem = 20px se a font-size base do HTML for 16px */
 }
 
@@ -233,7 +464,12 @@ main {
     color: white;
     overflow: visible;
     height: auto; /* Ajusta a altura conforme o conteúdo */
+    font-weight: 400;
+}
 
+.custom-footer p{
+    line-height: 1;
+    margin: 0;
 }
 
 .custom-container {
@@ -247,7 +483,6 @@ main {
     grid-template-columns: 2fr 4fr 4fr 1fr 3fr;
     justify-items: center;
     /* Centraliza os itens horizontalmente */
-    align-items: center;
     height: auto;
 }
 
@@ -306,10 +541,9 @@ main {
 }
 
 .custom-adress {
-    font-size: 1.13vw;
+    font-size: 1.25vw;
     margin-left: 20%;
-    margin-top: 20px;
-    
+    margin-top: 10%;
 }
 
 #fig-adress{
@@ -329,7 +563,7 @@ main {
 
 #fig-adress p {
     margin: 0;            /* Remove margens extras no parágrafo */
-    line-height: 1.5;     /* Ajusta a altura das linhas para melhorar a legibilidade */
+    line-height: 1;     /* Ajusta a altura das linhas para melhorar a legibilidade */
 }
 
 .phone-item {
@@ -362,6 +596,9 @@ main {
     margin-left: 5px;
 }
 
+.phone-space i{
+    font-size: 2vw;
+}
 
 .phone-space a:hover {
     color: var(--primary-color);

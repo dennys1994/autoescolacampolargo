@@ -2,8 +2,8 @@
     margin-top: -50px; /* Ajuste para que o título fique mais perto do banner */
     background-color: #890004; /* Personalize a cor de fundo */
     color: white; /* Cor do texto */
-    padding: 75px 30px 10px; /* Ajuste o padding conforme necessário */
-    border-radius: 25px; /* Bordas arredondadas */
+    padding: 75px 30px 25px; /* Ajuste o padding conforme necessário */
+    border-radius: 40px; /* Bordas arredondadas */
     font-family: Grold;
     font-size: 47.59px;
     font-weight: 400;
@@ -22,8 +22,8 @@
 
 #primeirahabilitacao .introducao{
     font-family: Grold;
-    font-size: 2.5vh;
-    font-weight: 400;
+    font-size: 3.5vh;
+    font-weight: 300;
     line-height: 25.06px;
     text-align: left;
     text-underline-position: from-font;
@@ -33,14 +33,19 @@
 
 }
 
+#primeirahabilitacao .introducao h3{
+    font-size: 4.5vh;
+    font-weight: 500;
+}
+
 #primeirahabilitacao .card-aula{
     padding: 5% 5%;
 }
 
 #primeirahabilitacao .card-aula h1{
     font-family: Grold;
-    font-size: 3vw;
-    font-weight: 400;
+    font-size: 3.5vw;
+    font-weight: 900;
     line-height: 42.26px;
     text-align: left;
     text-underline-position: from-font;
@@ -52,7 +57,7 @@
 #primeirahabilitacao .card-aula p{
     font-family: Grold;
     font-size: 1.6vw;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 25.06px;
     text-align: left;
     text-underline-position: from-font;
@@ -89,8 +94,8 @@
 #primeirahabilitacao .card p{
     color: #FFFFFF;
     font-family: Grold;
-    font-size: 0.9rem;
-    font-weight: 400;
+    font-size: 1.35vw;
+    font-weight: 300;
     line-height: 23px;
     text-align: left;
     text-underline-position: from-font;
@@ -98,12 +103,16 @@
 
 }
 
+.flex-grow-2 {
+    flex-grow: 2; /* Faz o card crescer 2 vezes mais que os outros */
+}
+
 #primeirahabilitacao a{
     background-color: #1A2352!important;
     color: #FFFFFF;
     border-radius: 17.79px;
     font-family: Grold;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 18.14px;
     letter-spacing: -0.04em;
     text-align: center;

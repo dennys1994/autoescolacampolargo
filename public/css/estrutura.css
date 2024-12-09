@@ -1,3 +1,21 @@
+#top-title h2 {
+    margin-top: -50px; /* Ajuste para que o título fique mais perto do banner */
+    background-color: #890004; /* Personalize a cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 75px 30px 25px; /* Ajuste o padding conforme necessário */
+    border-radius: 40px; /* Bordas arredondadas */
+    font-family: Grold;
+    font-size: 3vw;
+    font-weight: 300;
+    line-height: 41.25px;
+    text-align: center;
+    text-underline-position: from-font;
+    margin-bottom: 50px;
+  }
+
+  #top-title h2 strong{
+    font-weight: 700;
+  }
 
 
 /* Garantir que as colunas tenham a mesma altura */
@@ -11,19 +29,30 @@
     background: #FFFFFF;
     color: #1A2352;
     border-radius: 27.85px 0 0 27.85px;
-    margin: 0;
-    padding: 20px;
     font-family: Grold;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25.06px;
+    font-size: 1.5vw;
+    font-weight: 300;
+    line-height: 30px;
     text-align: left;
     height: 100%;  /* Garantir que ocupe toda a altura da coluna */
     width: 100%;
-    list-style-type: disc;
     padding-top: 12.5%;
-    padding-left: 40px;
-    right:500px!important;
+    margin-left: 15%;
+    padding-left: 20px;
+    list-style-type: none; 
+}
+
+#estrutura li {
+    padding-left: 32px; /* Adiciona o espaçamento desejado */
+    position: relative; /* Necessário para usar ::before */
+}
+
+#estrutura li::before {
+    content: "."; /* Adiciona o marcador */
+    position: absolute;
+    left: 0; /* Garante que o marcador esteja alinhado à esquerda */
+    font-size: 20px; /* Tamanho do marcador */
+    color: black; /* Cor do marcador */
 }
 
 /* Garantir que o conteúdo dentro da coluna da esquerda fique centralizado */
@@ -55,9 +84,9 @@
 #estrutura a{
     background-color: #1A2352!important;
     color: #FFFFFF;
-    border-radius: 17.79px;
+    border-radius: 25px;
     font-family: Grold;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 18.14px;
     letter-spacing: -0.04em;
     text-align: center;

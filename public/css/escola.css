@@ -1,3 +1,23 @@
+
+#top-title h2 {
+    margin-top: -50px; /* Ajuste para que o título fique mais perto do banner */
+    background-color: #890004; /* Personalize a cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 75px 30px 25px; /* Ajuste o padding conforme necessário */
+    border-radius: 25px; /* Bordas arredondadas */
+    font-family: Grold;
+    font-size: 3vw;
+    font-weight: 300;
+    line-height: 41.25px;
+    text-align: center;
+    text-underline-position: from-font;
+    margin-bottom: 50px;
+  }
+
+  #top-title h2 strong{
+    font-weight: 700;
+  }
+
 #a-escola p{
     background: #FFFFFF;
     color: #1A2352;    
@@ -8,10 +28,10 @@
     justify-content: center; /* Centraliza horizontalmente */
     text-align: justify; /* (Opcional) Justifica o texto */
     padding: 20px; /* Adiciona espaço interno ao redor do texto */
-    margin: 0; /* Remove margens do parágrafo */  
+    margin: 10px; /* Remove margens do parágrafo */  
     font-family: Grold;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 1.75vw;
+    font-weight: 300;
     line-height: 25.06px;
     text-align: left;
     text-underline-position: from-font;
@@ -44,8 +64,8 @@
     color: #FFFFFF;
     border-radius: 17.79px;
     font-family: Grold;
-    font-size:  2.1vw;
-    font-weight: 400;
+    font-size:  2.5vw;
+    font-weight: 300;
     line-height: 18.14px;
     letter-spacing: -0.04em;
     text-align: center;

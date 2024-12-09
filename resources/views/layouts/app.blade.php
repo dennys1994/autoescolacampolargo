@@ -109,7 +109,7 @@
             <div class="custom-footer-item custom-adress">
                 <div id="fig-adress">
                     <img src="{{ asset('img/icons/pin.png')}}" alt="pin">
-                    <p>Av. Des. Clotário Portugal, 1076 -<br> Centro, Campo Largo</p>
+                    <p class="no-spacing">Av. Des. Clotário Portugal, 1076 - Centro, Campo Largo</p>
                 </div>
                 <div class="phone-space">
                     <span>
