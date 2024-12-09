@@ -114,11 +114,11 @@
                 <div class="phone-space">
                     <span>
                         <i class="fa-solid fa-phone"></i>&nbsp
-                        (41) <strong>3032-1212</strong>
+                        (41)&nbsp<strong>3032-1212</strong>
                     </span>
                     <a  href="https://api.whatsapp.com/send?phone=5541998073444" target="_blank">
                         <i class="fa-brands fa-whatsapp"></i>&nbsp
-                        (41) <strong>99807-3444</strong>
+                        (41)&nbsp<strong>99807-3444</strong>
                     </a>
                 </div>
             </div>
@@ -127,8 +127,8 @@
             <div class="custom-footer-item custom-hours">
                 <img src="{{ asset('img/icons/clock.png')}}" alt="clock">
                 <p>                    
-                    De segunda a sexta das 09h às 18h30<br>
-                    Sábado das 09h às 12h
+                    De segunda a sexta das <strong>09h</strong> às <strong>18h30</strong><br>
+                    Sábado das <strong>09h</strong> às <strong>12h</strong>
                 </p>
             </div>
             

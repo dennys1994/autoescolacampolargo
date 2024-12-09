@@ -181,7 +181,7 @@
             <div class="col-6 col-md-3 mb-4 card-col">
               <div class="card text-center rounded-0" style="background-color: #1A2352; color: white; padding-top: 0.7vw;">
                 <div class="card-body">
-                  <h5 class="card-title">ALTERAÇÃO OU INCLUSÃO DE CATEGORIA</h5>
+                  <h5 class="card-title">ALTERAÇÃO OU<br> INCLUSÃO DE CATEGORIA</h5>
                   <a href="{{ route('inclusao_categoria') }}"><button class="btn btn-light rounded-pill">Saiba Mais</button></a>
                 </div>
               </div>
@@ -402,7 +402,7 @@
                             <input type="tel" id="telefone" name="telefone" class="form-control" placeholder="Telefone" required>
                         </div>
                         <div class="col-md-6">
-                            <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="E-mail" required>
                         </div>
                     </div>
                     <!-- Serviço Selecionado (Campo Oculto) -->

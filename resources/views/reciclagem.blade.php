@@ -26,7 +26,8 @@
                     <div class="container">            
                         <div class="row">               
                             <!-- Card 1 -->
-                            <div class="col-12">
+                            <div class="col-1"></div>
+                            <div class="col-10">
                                 <div class="container">            
                                     <div class="row">
                                         <div class="col-12 col-md-4">
